@@ -1,0 +1,124 @@
+body{
+    margin:0;
+    padding:0;
+}
+header{
+    background:white;
+    width: 100%;
+    height: 2.1rem;
+    line-height: 2.1rem;
+    text-align: center;
+    font-size: 0.9rem;
+}
+header ._lefte{
+    display: block;
+    position: absolute;
+    height:21px;
+    width: 12px;
+    background-size: 100%;
+    left: 0.6rem;
+    color:black;
+}
+.iponeone{
+    width:100%;
+    height:11rem;
+    position:relative;
+}
+.iponetwo{
+   width: 94%;
+    margin-left: 3%;
+    height: 5.3rem;
+    border-bottom: 1px solid #cecece;
+}
+.iponethree{
+    width: 94%;
+    margin-left: 3%;
+    height: 3.5rem;
+    border-bottom: 1px solid #cecece;
+}
+
+.iponeoneone{
+    width: 30%;
+    height: 4.5rem;
+    position: absolute;
+    top: 3%;
+    left: 35%;
+}
+.iponeonetwo{
+    width: 30%;
+    height: 1.2rem;
+    position: absolute;
+    top: 59%;
+    left: 33%;
+    text-align: center;
+}
+.iponetwooneleft{
+    width: 85%;
+    height: 1.2rem;
+    float: left;
+    font-size: 0.7rem;
+    margin-left: 5%;
+    color: #333333;
+}
+.iponetwooneright{
+    width: 10%;
+    height: 1.2rem;
+    float: right;
+}
+.iponetwoonelefts{
+    width:27%;
+    height: 1.2rem;
+    float: left;
+    font-size: 0.6rem;
+    margin-left: 5%;
+    color: #333333;
+}
+.iponetwoonecenter{
+    width:27%;
+    height: 1.2rem;
+    float:right;
+    font-size: 0.7rem;
+    margin-left: 5%;
+    color: #333333;
+}
+.iponetwoonerights{
+    width:27%;
+    height: 1.2rem;
+    float:left;
+    font-size: 0.6rem;
+    margin-left: 5%;
+    color: #333333;
+}
+.iponetwooneleftss{
+       width: 80%;
+    height: 1.0rem;
+    float: left;
+    font-size: 0.6rem;
+    margin-left: 5%;
+    color: #333333;
+    margin-top: 0.9rem;
+}
+.iponetwoonecenters{
+    width: 50%;
+    height: 1.5rem;
+    float: left;
+    font-size: 0.6rem;
+    margin-left: 5%;
+    color: #333333;
+}
+.iponetwoonerightss{
+    width: 10%;
+    height: 1.2rem;
+    float: left;
+    font-size: 0.6rem;
+    margin-left: 5%;
+    color: #333333;
+    margin-top: 0.6rem;
+}
+.iu{
+    font-size:23px;
+}
+.is{
+    font-size:23px;
+    color:#666;
+}

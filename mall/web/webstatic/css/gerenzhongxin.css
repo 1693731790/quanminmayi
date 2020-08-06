@@ -1,0 +1,390 @@
+
+*, *:before, *:after{-webkit-box-sizing: content-box;    box-sizing: content-box;}
+.headout{
+    width:100%;
+    height:100%;
+}
+.news{
+    width: 92%;
+    height: 10rem;
+    background: white;
+    position: absolute;
+    z-index: 999999;
+    top: 16%;
+    left: 4%;
+    border-radius: 3%;
+    box-shadow: 0px 3px 6px rgba(105, 105, 105, 0.21);
+}
+.name{
+    width: 6rem;
+    height: 5.5rem;
+    position: absolute;
+    top: -1.2rem;
+    left: 4.5rem;
+}
+.touxiang{
+    width: 2.7rem;
+    height: 2.5rem;
+    margin: 0 auto;
+}
+.shop{
+    display: block;
+}
+.shops{
+    display: block;
+    border-radius: 1.9rem;
+}
+.firstname{
+   width: 40%;
+    height: 0.8rem;
+    font-size: 0.7rem;
+    margin-top: 0.6rem;
+    margin-left: 1.8rem;
+    text-align: center;
+}
+.twotname{
+     width: 43%;
+    height: 0.9rem;
+    font-size: 0.7rem;
+    color: #666;
+    margin-top: 0.1rem;
+    margin-left: 1.8rem;
+    text-align: center;
+}
+.threename{
+     width: 1.2rem;
+    height: 1.2rem;
+    margin: 0 auto;
+    color: #666;
+    position: absolute;
+    top: 2.9rem;
+    left: 4.5rem;
+}
+.mar{
+    font-size:20px;
+    color:red;
+}
+.leftyue{
+    float: left;
+    width: 35%;
+    height: 5rem;
+    position: absolute;
+    top: 4.2rem;
+    left: 1.0rem;
+    text-align: center;
+}
+.rightyongjin{
+    float: right;
+    width: 35%;
+    height: 5rem;
+    position: absolute;
+    top: 4.2rem;
+    left: 8.0rem;
+  text-align: center;
+}
+.ids{
+  float: right;
+    width: 0.5%;
+    height: 2rem;
+    background: #c0c0c0;
+    position: absolute;
+    top: 4.5rem;
+    left: 6.9rem;
+}
+.jine{
+    color: #ff0000c7;
+    font-size: 1.2rem;
+}
+.jinemony{
+    color: #ff0000c7;
+    font-size: 1.2rem;
+}
+.yongjing {
+    color: #666;
+    font-size: 0.6rem;
+}
+.myongjing{
+    color: #666;
+    font-size: 0.6rem;
+}
+.chongzhi{
+    width: 4.2rem;
+    height: 1.5rem;
+    border-radius: 2rem;
+    color: #ff0000c7;
+    border: 1px solid #ff0000c7;
+    text-align: center;
+    margin-top: 0.5rem;
+    font-size: 0.8rem;
+    line-height: 1.5rem;
+}
+.tixian{
+    width: 4.2rem;
+    height: 1.5rem;
+    border-radius:2rem;
+    color:#ff0000c7;
+    border:1px solid #ff0000c7;
+    text-align:center;
+    margin-top:0.5rem;
+    font-size: 0.8rem;
+    line-height: 1.5rem;
+}
+.twobody{
+    width:88%;
+    height:5rem;
+    position: absolute;
+    top: 15.2rem;
+    margin-left:6%;
+    display:inline-block;
+}
+.myorder{
+    width: 100%;
+    height: 1.6rem;
+    border-bottom: 1px solid #efefef;
+}
+.myorderone{
+        width:1%;
+    height: 0.7rem;
+    background: #fc3b3e;
+    float: left;
+    margin-top: 0.6rem;
+}
+.myordertwo{
+   width: 30%;
+    height: 1.5rem;
+    margin-left: 0.5rem;
+    float: left;
+    font-size: 0.7rem;
+    line-height: 1.9rem;
+}
+.myorderthree{
+   font-size: 0.55rem;
+    color: #c0c0c0;
+    width: 28%;
+    margin-left: 10.5rem;
+    line-height: 1.9rem;
+}
+.threebody{
+    width: 88%;
+    height: 10.5rem;
+    position: absolute;
+    top: 20.3rem;
+    margin-left: 6%;
+    display: inline-block;
+    margin-bottom: 17%;
+} 
+.shouhuo{
+    width:100%;
+}
+.shouhuo ul li{ 
+    float:left;
+    height:2.2rem;
+    line-height: 0.9rem;
+    padding-left: 0.1rem;
+    cursor: pointer;
+    font-size: 0.8rem;
+    position: relative;
+    border: 1px solid #f7f7f700;
+    width:16.8%;
+    padding: 0.16rem;
+    margin-top: 0.5rem;
+    text-align: center;
+ }
+.pim{
+    width:100%;
+    height:1.5rem;
+    background-size:100%;
+}
+.pio{
+    width: 100%;
+    height: 1.0rem;
+    text-align: center;
+    font-size: 0.45rem;
+    color:#666;
+}
+.shouhuoo{
+    width:100%;
+    height:100%;
+}
+.shouhuoo ul li{ 
+    float: left;
+    height: 2.2rem;
+    line-height: 0.9rem;
+    padding-left: 0.1rem;
+    cursor: pointer;
+    font-size: 0.8rem;
+    position: relative;
+    border: 1px solid #f7f7f700;
+    width: 20%;
+    padding: 0.3rem;
+    margin-top: 0.5rem;
+    text-align: center;
+ }
+ .pill{
+    width: 100%;
+    height:3rem;
+    margin-top:2rem;
+    background:white;
+    overflow:hidden;
+    position:fixed;
+    bottom:0; 
+}
+.pill ul li{ 
+   float: left;
+    height: 1.7rem;
+    line-height: 0.9rem;
+    padding-left: 0.1rem;
+    cursor: pointer;
+    font-size: 17px;
+    position: relative;
+    border: 1px solid #f7f7f700;
+    width: 12%;
+    padding: 0.3rem;
+    margin-left: 0.5rem;
+ }
+.piml{
+    width: 100%;
+    height: 1.8rem;
+    background: url(../images/tony_03.jpg) no-repeat;
+    background-size: 100%;
+}
+.piol{
+    width: 100%;
+    height: 1.0rem;
+    text-align: center;
+    font-size: 12px;
+    color: #333333;
+}
+.foot_menu{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+    border-top: 1px solid #cecece;
+}
+.foot_menu ul{ overflow: hidden; background-color:white; padding-top:2%; padding-bottom: 1%;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -webkit-flex; Safari 
+    display: -moz-flex;
+    display: flex;
+    flex-wrap: nowrap;
+    -moz-justify-content: space-around;
+    -webkit-justify-content: space-around;
+    justify-content: space-around;
+    -webkit-box-align: center;
+    -moz-align-items: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+.foot_menu ul li{ text-align: center; width: 25%;}
+.foot_menu ul li i{display: block; margin-bottom: .08rem;}
+.foot_menu ul li img{ display: block; margin:0 auto; width:1.2rem;height: 1.0rem; }
+.foot_menu ul li a{ color: #333333;
+    font-size: 0.6rem;display: inline-block;}
+.iq{
+    display:block;
+    margin-top:0.3rem;
+}
+
+
+.statement{
+    width: 100%;
+    height: 2rem;
+    /* background: red; */
+    position: absolute;
+    top: 4.5rem;
+}
+.statementleft{
+    width: 50%;
+    height: 2rem;
+    font-size: 0.7rem;
+    float: left;
+    color: #666666;
+    line-height: 2rem;
+    margin-left: 0.8rem;
+}
+.statementred{
+    color:#fc3b3e;
+    font-size:0.8rem;
+}
+.statementright{
+    width: 30%;
+    height: 1.3rem;
+    font-size: 0.7rem;
+    float: right;
+    color: #666666;
+    line-height: 1.3rem;
+    border-radius: 2.2rem;
+    border: 1px solid #fc3b3e;
+    text-align: center;
+    margin-right: 0.8rem;
+    margin-top: 0.2rem;
+    color: #fc3b3e;
+    font-size: 0.75rem;
+}
+.balances{
+      width: 100%;
+    height: 3rem;
+    position: absolute;
+    top: 6.5rem;
+}
+.balancesleft{
+    width: 26%;
+    height: 2.5rem;
+    font-size: 0.65rem;
+    float: left;
+    color: #666666bf;
+    line-height: 1.3rem;
+    text-align: center;
+}
+.balancesright{
+    width: 27%;
+    height: 2.5rem;
+    font-size: 0.65rem;
+    float: right;
+    color: #666666bf;
+    line-height: 1.3rem;
+    text-align: center;
+}
+.balancescenter{
+    width:27%;
+    height: 2.5rem;
+    font-size: 0.65rem;
+    float:right;
+    color:#666666bf;
+    line-height:1.3rem;
+}
+.balancescirle{
+    width: 0.09rem;
+    height: 1.5rem;
+    font-size: 0.65rem;
+    background:#cecece;
+    float: right;
+    color: #666666bf;
+    margin-right: 0.6rem;
+    margin-top: 0.6rem;
+}
+.balancescirles{
+   width: 0.09rem;
+    height: 1.5rem;
+    font-size: 0.65rem;
+    background: #cecece;
+    float: right;
+    margin-right: 1.3rem;
+    margin-top: 0.6rem;
+}
+.mybalances{
+    color:#fc3b3e;
+     font-size: 0.8rem;
+}
+.myshouyi{
+    color:#fc3b3e;
+     font-size: 0.8rem;
+}
+.mycenter{
+    color: #fc3b3e;
+    font-size: 0.8rem;
+    margin-left: 0.3rem;
+}

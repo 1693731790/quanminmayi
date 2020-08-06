@@ -1,0 +1,96 @@
+@charset "utf-8";
+/*public*/
+body,h1,h2,h3,h4,h5,dl,dd,dt,p,ul,li,ol{ margin:0; padding:0;}
+input,select,form,textarea,button,video{ border:none; margin:0;outline:none; padding:0; appearance:none;}
+h1,h2,h3,h4,h5{ font-weight:normal;}
+img{ border:none;}
+a{ 
+	text-decoration:none; outline:none;
+	-webkit-tap-highlight-color: transparent;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+}
+select{
+	-webkit-appearance:none; /*去除系统默认的样式*/
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);   /* 点击高亮的颜色*/
+}
+body,button,input,select,textarea{ font: normal 12px/100% Arial,Helvetica,sans-serif;}
+li{ list-style-type:none;}
+table{border-collapse:collapse;border-spacing:0;}
+body,html{ width:100%; height: 100%;}
+.text-overflow{overflow: hidden;white-space: nowrap;text-overflow: ellipsis;}
+.clearfix{font-size:0;clear:both;}
+.clearfix:before {
+	content: ".";
+	display: block;
+	clear: both;
+	height: 0;
+	font-size: 0;
+	visibility: hidden;
+	overflow: hidden;
+}
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	height: 0;
+	font-size: 0;
+	visibility: hidden;
+	overflow: hidden;
+}
+::placeholder {color: #fff;}
+::-webkit-input-placeholder {
+  color: #fff
+}
+button {
+    -webkit-appearance: none;
+    border: 0;
+    background: none;
+}
+/*house_electrical*/
+.special-department-store{padding-bottom:2.5rem; background: #f7a058}
+.special-department-store-banner{height: 20.629rem; overflow: hidden;width: 100%; }
+.special-department-store-banner img{ max-width: 100%;  display: block; height: 100%; }
+.special-department-store-con{ position: relative; z-index: 2}
+.special-department-store-tit{position:relative;text-shadow: 0.06rem 0.06rem #bf5b09;margin:0 auto; line-height: 2.389rem;padding:0 0.342rem;text-align: center; color:#fff;font-size: 0.853rem;}
+.special-department-store-tit em{width:0.214rem; height: 0.214rem;  vertical-align:middle; display: inline-block; background: #fff;border-radius:100%;margin-left:0.2rem; margin-right: 0.2rem}
+/*department-store part1*/
+.special-department-store-part1{ height: 4.5rem;margin-bottom:0.54rem;margin-top:0.8rem; }
+.special-department-store-part1 .swiper-slide img{width:2.96rem; height: 2.96rem; display: block; margin: 0 auto;}
+.special-department-store-part1 .swiper-slide p{ color:#fc3b3e;font-size: 0.512rem; text-align: center; line-height: 0.64rem; margin-top:0.3rem; }
+.special-department-store-part1 .swiper-slide p em{font-size: 0.427rem;font-style:normal; }
+.special-department-store-part1 .swiper-slide{ background: #fff;height: 4.5rem;padding-top:0.42rem;
+-webkit-transform:scale(.9) translate3d(0,0.37rem,0);
+  transform:scale(.9) translate3d(0,0.37rem,0);
+  -webkit-transition:all .5s;
+  -o-transition:all .5s;
+  transition:all .5s ;
+  float: left;
+}
+.special-department-store-part1 .swiper-slide a{ width: 100%; height: 100%; display: block; }
+.special-department-store-part1 .swiper-slide p{
+font-size: 0.568rem;
+}
+.special-department-store-part1 .swiper-slide-active p{font-size: 0.512rem;}
+.special-department-store-part1 .swiper-slide-active{
+	-webkit-transform:scale(1);
+  -ms-transform:scale(1);
+  transform:scale(1);
+ }
+
+/*department-store part2*/
+.special-department-store-part2 ul {padding:0  0.32rem 0.22rem 0.32rem;margin-top:0.23rem}
+.special-department-store-part2 ul li{ width:33.33%; height: 8.96rem; float: left;margin-bottom:0.22rem;}
+.special-department-store-part2 ul li>a{margin:0 0.11rem; display:block;background-color: #fff; height: 8.96rem;border-radius:0.2rem; }
+.special-department-store-part2 ul li .div-img{border-top-left-radius: 0.2rem; border-top-right-radius:0.2rem;width:100%; text-align: center; height:4.9rem; }
+.special-department-store-part2 ul li .div-img img{border-top-left-radius: 0.2rem; border-top-right-radius:0.2rem;width:100%; height:100%;display: block;}
+.special-department-store-part2 ul li p.p01{overflow: hidden;font-size: 0.47rem; margin-top:0.5rem;line-height: 0.68rem; height: 1.36rem;
+ text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;color:#333;padding:0 3%;}
+.special-department-store-part2 ul li p.p02{padding:0 3%;font-size: 0.64rem; color:#fc3b3e;margin-top: 0.2rem; height:0.68rem;line-height: 0.68rem}
+.special-department-store-part2 ul li p.p02 em{font-size: 0.512rem; font-style: normal;}
+.special-department-store-part2 ul li p.p03 .btn-02{margin:0 3%;margin-top:0.18rem; height: 0.938rem;    border-radius: 0.2rem;width:94%; line-height: 0.938rem; text-align: center; color:#fff; font-size:0.47rem; background:#fc3b3e;}
+.special-department-store-part2 ul li p.p03 .btn-02:active{ opacity: 0.9 }
+

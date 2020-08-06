@@ -1,0 +1,816 @@
+.Web_Box { width: 16rem; margin: 0 auto; margin-bottom: 2.55rem; overflow: hidden; }
+.nb { margin: 0; }
+.bottom_fixed { position: fixed; width: 100%; left: 0; bottom: 0; }
+.iconfont:before { vertical-align: top; }
+/*关注*/
+.follow { width: 3.5rem; height: 1.45rem; line-height: 1.4rem; font-size: 0.6rem; color: #eb4f38; text-align: center; border: #eb4f38 solid 1px; border-radius: 1rem; }
+/*轮播索引居中*/
+.swiper-pagination2 { position: absolute; left: 0; bottom: 0.3rem; width: 100%; text-align: center; z-index: 10; }
+.swiper-pagination2 .swiper-pagination-bullet { width: 0.4rem; height: 0.4rem; display: inline-block; border-radius: 50%; background: rgba(255,255,255,.6); vertical-align: middle; margin: 0 0.3rem; }
+.swiper-pagination2 .swiper-pagination-bullet-active { background: none; width: 0.4rem; height: 0.4rem; border-radius: 50%; background: rgba(255,255,255,1); vertical-align: middle; }
+.swiper-pagination3 { position: absolute; left: 0; bottom: 0.3rem; width: 100%; text-align: center; z-index: 10; }
+.swiper-pagination3 .swiper-pagination-bullet { width: 0.4rem; height: 0.4rem; display: inline-block; border-radius: 50%; background: #d1d1d1; vertical-align: middle; margin: 0 0.3rem; }
+.swiper-pagination3 .swiper-pagination-bullet-active { width: 0.4rem; height: 0.4rem; border-radius: 50%; background: #ff5c36; vertical-align: middle; }
+/*-----------------------------------------------弹窗-----------------------------------------------*/
+.PopBg { position: fixed; left: 0; top: 0; width: 100%; height: 100%; background: rgba(0,0,0,.6); z-index: 90; }
+/*单条语句提示*/
+.PromptPop { position: fixed; left: 50%; top: 50%; width: 80%; background: #fff; z-index: 99; -webkit-transform: translate(-50%, -50%); padding: 0.5rem; border-radius: 0.25rem; }
+.PromptPop .text1 { font-size: 0.75rem; color: #595757; }
+.PromptPop .ButBox li { float: left; width: 50%; }
+/*弹窗取消确定按钮*/
+.PopCancelBut, .PopDetermineBut { width: 100%; height: 1.75rem; line-height: 1.75rem; font-size: 0.75rem; color: #fff; text-align: center; border: 0; border-radius: 0.125rem; }
+.PopCancelBut { background: #999; }
+.PopDetermineBut { background: #fd6847; }
+/*导航*/
+.nav { position: fixed; left: 0; bottom: 0; width: 100%; height: 2.5rem; border-top: #d0cfcd solid 1px; background: #f8f8f8; z-index: 10; }
+.nav li { position: relative; float: left; width: 25%; text-align: center; color: #898989; }
+.nav li i { display: block; font-size: 1.05rem; line-height: 1.05rem; margin-top: 0.375rem; }
+.nav li p { font-size: 0.6rem; line-height: 1rem; }
+.nav li.on { color: #ff3c00; }
+.nav li .icon-homeon, .nav li .icon-shopon, .nav li .icon-classificationon, .nav li .icon-myon { display: none; }
+.nav li.on .icon-homeon, .nav li.on .icon-shopon, .nav li.on .icon-classificationon, .nav li.on .icon-myon { display: inline-block; }
+.nav li.on .icon-home, .nav li.on .icon-shop, .nav li.on .icon-classification, .nav li.on .icon-my { display: none; }
+.nav li a, .nav li a:visited { color: inherit; }
+.nav li .num { position: absolute; left: 2.125rem; top: 0.15rem; display: block; width: 0.65rem; height: 0.65rem; line-height: 0.65rem; font-size: 0.5rem; color: #fff; text-align: center; background: #e60012; border-radius: 50%; }
+.nav li .disn { display: none; }
+/*首页公用大标题*/
+.big_tit { position: relative; width: 100%; height: 2.25rem; overflow: hidden; }
+.big_tit:before { position: absolute; left: 0; top: 1.125rem; width: 100%; height: 1px; background: #898989; content: ''; }
+.big_tit h1 { display: inline-block; position: absolute; left: 50%; top: 0; width: 6.55rem; height: 2.25rem; line-height: 2.25rem; font-size: 0.75rem; text-align: center; background: #efeff4; -webkit-transform: translate(-50%, 0); }
+.big_tit h1 i { font-size: 0.75rem; }
+.big_tit .more { display: block; position: absolute; right: 0; top: 0; width: 2.7rem; height: 2.25rem; line-height: 2.25rem; font-size: 0.6rem; color: #595757; background: #efeff4; padding-left: 0.375rem; }
+.big_tit .more .icon-rightdot { height: 0.475rem; font-size: 0.475rem; color: #d42d00; }
+/*------------------------------------首页页面------------------------------------*/
+/*头部标题*/
+header { height: 2.2rem; background: #f84e37; z-index: 10; }
+header .logo { width: 4.95rem; height: 2.2rem; padding: 0 0 0 0.5rem; }
+header .logo .pic { float: left; width: 2.1rem; padding: 0.2rem 0 0 0; }
+header .logo .pic img {  width: 4.125rem;  }
+header .logo i { float: left; width: 2.35rem; height: 2.2rem; line-height: 2.3rem; font-size: 2.05rem; color: #fff; }
+header .SearchBox { position: relative; width: 8.75rem; padding-top: 0.275rem; }
+/*header .SearchBox .InputBor { width: 8.75rem; height: 1.625rem; line-height: normal; font-size: 0.65rem; background: #efeff0; padding: 0 1.4rem 0 0.5rem; border: 0; border-radius: 0.125rem; }
+*/header .SearchBox .InputBor { width: 8.75rem; height: 1.625rem; line-height: normal; font-size: 0.65rem; background: #efeff0; padding: 0 1.4rem 0 2.95rem; border: 0; border-radius: 0.125rem; }
+ header .SearchBox .InputBor::-webkit-input-placeholder {
+line-height:0.8125rem;
+}
+/*搜索类型（商品与店铺切换）*/
+header .SearchBox .SearchType{ position:absolute; width:2.625rem;height: 1.625rem; line-height:1.625rem; font-size:0.7rem; color:#acacac; padding:0 0 0 0.5rem;}
+header .SearchBox .SearchType .icon-downdot{ float:left; height: 1.625rem; line-height:1.7rem; font-size:0.275rem; color:#b1b1b1; margin-left:0.15rem;}
+header .SearchBox .TypePop{ position:absolute; left:0; top:1.63rem; width:3.575rem; height:3rem; border-radius:0.25rem; background:#595757; z-index:100;}
+header .SearchBox .TypePop:after{ position:absolute; left:0.875rem; top:-0.25rem; width:0.5rem; height:0.65rem; background:#595757; content:'';-webkit-transform:rotate(45deg);}
+header .SearchBox .TypePop li{ position:relative; height:1.5rem; line-height:1.5rem; font-size:0.65rem; color:#fff; text-align:center; border-bottom:#ddddde solid 1px; z-index:2;}
+header .SearchBox .TypePop li:last-of-type{ border-bottom:0;}
+header .SearchBox .TypePop li i{font-size:0.775rem; vertical-align:top; margin-right:0.375rem;}
+
+
+
+header .SearchBox .SearchType:after{ position:absolute; left:2.6rem; top:0.4rem; width:1px; height:0.925rem; content:''; background:#ddddde;}
+header .SearchBox .icon-search { position: absolute; right: 0; top: 0.275rem; width: 1.4rem; height: 1.625rem; line-height: 1.625rem; font-size: 0.75rem; text-align: center; color: #8a8a8a; }
+header .SearchBox { position: relative; width: 8.75rem; padding: 0.275rem 0 0 0; }
+header .SearchBox2 { width: 13.625rem; padding: 0.275rem 0 0 0.5rem; }
+header .SearchBox2 .InputBor { width: 100%; }
+header .ShoppingCart { width: 2.3rem; text-align: center; color: #fff; margin-top: 0.275rem; }
+header .ShoppingCart .icon-shoppingcart { display: block; height: 1.025rem; font-size: 1rem; overflow: hidden; }
+header .ShoppingCart span { display: block; height: 0.7rem; line-height: 0.7rem; font-size: 0.5rem; }
+header .Sweep { width: 2.3rem; text-align: center; color: #fff; margin-top: 0.275rem; }
+header .Sweep .icon-sweep { display: block; height: 1.025rem; font-size: 1rem; overflow: hidden; }
+header .Sweep span { display: block; height: 0.7rem; line-height: 0.7rem; font-size: 0.5rem; }
+.Head88 header { height: 2.225rem; line-height: 2.2rem; background: #f8f8f8; border-bottom: #dcdddd solid 1px; }
+.Head88 header .icon-leftdot { float: left; width: 1.925rem; padding-right: 0.525rem; font-size: 0.75rem; text-align: center; color: #595757; margin: 0; }
+.Head88 header h2 { float: left; width: 12.15rem; font-size: 0.75rem; color: #f84e37; text-align: center; }
+/*商品管理头部*/
+header .SearchBox3 { width: 11.1rem; padding: 0.275rem 0 0 0; }
+header .SearchBox3 .InputBor { width: 11.1rem; }
+header .SearchBox4 { width: 13.3rem; padding: 0.275rem 0 0 0; }
+header .SearchBox4 .InputBor { width: 13.3rem; }
+header .icon-leftdot { float: left; width: 1.4rem; height: 2.2rem; line-height: 2.2rem; text-align: center; font-size: 0.75rem; color: #fff; margin-right: 0.8rem; }
+header .Sweep3 { width: 2.7rem; text-align: center; color: #fff; margin-top: 0.275rem; }
+header .Sweep3 .icon-sweep { display: block; height: 1.025rem; font-size: 1rem; overflow: hidden; }
+header .Sweep3 span { display: block; height: 0.7rem; line-height: 0.7rem; font-size: 0.5rem; }
+.TransparentBut { position: absolute; width: 1.5rem; height: 1.5rem; line-height: 1.5rem; text-align: center; color: rgba(255,255,255,.8); border-radius: 50%; background: rgba(0,0,0,.6); z-index: 10; }
+.TransparentReturn { left: 0.5rem; top: 0.5rem; }
+.TransparentList { right: 0.5rem; top: 0.5rem; }
+.TransparentCollection { right: 2.5rem; top: 0.5rem; }
+.TransparentCollectionOn { color: #ff5c36; }
+/*首页轮播图*/
+.banner { height: 6.125rem; background: #FFF; }
+.banner img { width: 100%; height: 6.125rem; }
+/*首页活动入口*/
+.ActiveEntry { height: 8.45rem; margin-top: 0.175rem; }
+.EveryDayBerserk { width: 7.1rem; height: 8.45rem; text-align: center; background: #fff; }
+.EveryDayBerserk h1 { height: 1.225rem; line-height: 1.225rem; font-size: 0.875rem; color: #f84e37; margin-top: 0.5rem; overflow: hidden; }
+.EveryDayBerserk p { height: 0.575rem; line-height: 0.575rem; font-size: 0.45rem; color: #898989; }
+.EveryDayBerserk .Countdown { margin-top: 0.275rem; height: 0.975rem; overflow: hidden; }
+.EveryDayBerserk .Countdown span { display: inline-block; text-align: center; }
+.EveryDayBerserk .Countdown .num { float: left; width: 0.6rem; height: 0.975rem; line-height: 0.975rem; font-size: 0.55rem; color: #fff; background: #000; border-radius: 0.125rem; }
+.EveryDayBerserk .Countdown .ml3 { margin-left: 3px; }
+.EveryDayBerserk .Countdown .mr3 { margin-right: 3px; }
+.EveryDayBerserk .Countdown .dian { float: left; width: 0.35rem; height: 0.975rem; line-height: 0.975rem; font-size: 0.575rem; color: #000; }
+.EveryDayBerserk .pic { height: 4.9rem; overflow: hidden; }
+.EveryDayBerserk .pic img { width: 7.1rem; height: 4.9rem; vertical-align: bottom; }
+.ActiveEntry .right { width: 8.8rem; height: 8.45rem; overflow: hidden; }
+.ActiveEntry .right .ads1 { width: 8.8rem; height: 3.325rem; vertical-align: bottom; background: #fff; }
+.ActiveEntry .right .ads1 img { width: 8.8rem; }
+.ActiveEntry .right .w174, .ActiveEntry .right .w174 img { width: 4.35rem; height: 5.025rem; margin-top: 0.1rem; vertical-align: top; background: #fff; }
+/*专题活动*/
+.ThematicActivities li { background: #fff; }
+.ThematicActivities li .pic img { width: 100%; vertical-align: bottom; }
+.ThematicActivities li .tit { width: 100%; height: 2rem; line-height: 2rem; font-size: 0.75rem; padding: 0 0.5rem; overflow: hidden; }
+.ThematicActivities li .tit h2 { float: left; font-weight: 400; margin-right: 1rem; }
+/*商品分类*/
+.CommodityClassification .tabs { position: relative; width: 100%; height: 2.025rem; background: #fff; overflow: hidden; }
+.CommodityClassification .tabs div { width: 100%; height: 5rem; overflow: auto; }
+.CommodityClassification .tabs:before { position: absolute; left: 0; bottom: 0; width: 100%; border-bottom: #ccc solid 1px; content: ''; }
+.CommodityClassification .tabs li { float: left; position: relative; width: 3.8rem; line-height: 2rem; font-size: 0.65rem; color: #595757; padding: 0 0.5rem; }
+.CommodityClassification .tabs li.on { color: #d42d00; }
+.CommodityClassification .tabs li.on:before { position: absolute; left: 0; bottom: -1px; width: 100%; height: 3px; content: ''; background: #d42d00; }
+/*商品列表*/
+.CommodityClassification .con, .ProList2 .con { width: 100%; padding: 0.45rem 0 0 0.475rem; overflow: hidden; }
+.CommodityClassification .con li, .ProList2 .con li { position: relative; float: left; width: 7.35rem; height: 10.5rem; margin: 0 0.35rem 0.4rem 0; background: #fff; border: #dcdddd solid 1px; }
+.CommodityClassification .con li .pic, .CommodityClassification .con li .pic img, .ProList2 .con li .pic, .ProList2 .con li .pic img { width: 7.25rem; height: 7.25rem; overflow: hidden; vertical-align: bottom; }
+.CommodityClassification .con li .discount, .ProList2 .con li .discount { position: absolute; left: -1px; top: -1px; font-size: 0.45rem; height: 0.85rem; line-height: 0.85rem; padding: 0 0.25rem; color: #fff; background: #ff0000; border-radius: 0 0.25rem 0.25rem 0 }
+.CommodityClassification .con li .OriginalPrice, .ProList2 .con li .OriginalPrice { font-size: 0.5rem; color: #898989; margin-left: 0.25rem; text-decoration: line-through; font-weight: 400; line-height: 0.5rem; }
+.CommodityClassification .con li h3, .ProList2 .con li h3 { width: 7.25rem; height: 1.6rem; line-height: 0.8rem; font-size: 0.55rem; color: #595757; overflow: hidden; padding: 0 0.2rem; margin: 0.2rem 0 0.15rem 0; }
+.CommodityClassification .con li .Price, .ProList2 .con li .Price { font-size: 0.7rem; line-height: 1rem; color: #ff650c; font-weight: 700; }
+.CommodityClassification .loadmore, .ProList2 .loadmore { width: 100%; line-height: 2.5rem; font-size: 0.65rem; text-align: center; color: #b5b5b6; margin-top: -0.4rem; }
+.ProList2 .tit { position: relative; width: 100%; height: 2rem; overflow: hidden; }
+.ProList2 .tit:before { position: absolute; left: 0; top: 50%; width: 100%; height: 1px; background: #b5b6b6; content: ''; }
+.ProList2 .tit h1 { display: inline-block; position: absolute; left: 50%; top: 0; height: 2rem; line-height: 2rem; font-size: 0.7rem; text-align: center; background: #fff; padding: 0 0.75rem; -webkit-transform: translate(-50%, 0); }
+/*------------------------------------我的------------------------------------*/
+.MyHead { background: url(../images/myhead.png) center top no-repeat; background-size: 16rem 5.3rem; }
+.MyHead .con { height: 5.3rem; }
+.MyHead .con h1 { float: left; width: 100%; overflow: hidden; height: 1.75rem; line-height: 1.75rem; font-size: 0.65rem; color: #fff; padding: 0 0.5rem 0 4.475rem; margin-top: 3.55rem; }
+.MyHead .con .icon-shoppingcart { position: absolute; right: 1.5rem; top: 0.625rem; width: 1.05rem; height: 1.05rem; font-size: 1.05rem; color: #fff; }
+.MyHead .Photo { position: absolute; left: 0.9rem; top: 3.775rem; width: 3.1rem; height: 3.1rem; border-radius: 50%; border: #fff solid 3px; overflow: hidden; }
+.MyHead .Photo img { width: 2.95rem; height: 2.95rem; border-radius: 50%; vertical-align: bottom; }
+.MyHead .con h1.dw { margin-top: 1.8rem; }
+.MyHead .Photo2 { top: 1.125rem; }
+.MyHead .OtherInfo { height: 2.675rem; background: #fff; border-bottom: #dcdddd solid 1px; }
+.MyHead .OtherInfo li { float: left; position: relative; width: 6.375rem; text-align: center; }
+.MyHead .OtherInfo li:first-of-type:before { position: absolute; right: 0; top: 0.25rem; width: 1px; height: 2.2rem; overflow: hidden; background: #f2f2f6; content: ''; }
+.MyHead .OtherInfo li .num { height: 1.2rem; line-height: 1.2rem; font-size: 0.75rem; color: #595757; margin-top: 0.25rem; }
+.MyHead .OtherInfo li .text { height: 0.875rem; line-height: 0.875rem; font-size: 0.65rem; color: #898989; }
+.OrderStatusEntry { height: 3.55rem; }
+.OrderStatusEntry li { float: left; width: 20%; text-align: center; }
+.OrderStatusEntry li .iconfont { display: inline-block; height: 1.275rem; font-size: 0.975rem; color: #595757; margin: 0.775rem 0 0 0; }
+.OrderStatusEntry li p { height: 0.825rem; line-height: 0.825rem; font-size: 0.6rem; color: #595757; }
+.nav_list li { height: 2.225rem; border-bottom: #dcdddd solid 1px; background: #FFF; padding: 0 0 0 0.5rem; line-height: 2.2rem; }
+.nav_list li .lefticon { display: inline-block; float: left; width: 1.325rem; height: 1.325rem; line-height: 1.325rem; text-align: center; font-size: 0.75rem; color: #fff; vertical-align: bottom; border-radius: 0.125rem; margin: 0.45rem 0.5rem 0 0; }
+.nav_list li span { display: inline-block; float: left; color: #595757; }
+.nav_list li span.fr { float: right; }
+.nav_list li span.num { font-size: 0.75rem; color: #898989; }
+.nav_list li .icon-rightdot { float: right; width: 0.95rem; text-align: right; color: #898989; font-size: 0.35rem; margin-right: 0.5rem; }
+.nav_list li .icon-rightdot:before { line-height: 2.25rem; }
+/*------------------------------------开店------------------------------------*/
+.OpenShopHead { width: 16rem; height: 4.35rem; background: url(../images/OpenShopHead.png) center top no-repeat; background-size: 16rem 4.35rem; }
+.OpenShopHead .Photo { float: left; width: 2.15rem; height: 2.15rem; border-radius: 50%; margin: 1.15rem 0.85rem 0 0.875rem }
+.OpenShopHead .Photo img { width: 2.15rem; height: 2.15rem; border-radius: 50%; vertical-align: bottom; }
+.OpenShopHead .con { float: left; margin: 1.15rem 0 0 0; }
+.OpenShopHead .con h1 { float: left; height: 0.9rem; line-height: 0.9rem; font-size: 0.65rem; color: #fff; margin-bottom: 0.375rem; }
+.OpenShopHead .con .AddressBox { height: 0.775rem; line-height: 0.775rem; color: #fff; }
+.OpenShopHead .con .AddressBox i { float: left; position: relative; width: 0.625rem; height: 0.775rem; text-align: center; font-size: 0.75rem; }
+.OpenShopHead .con .AddressBox i:before { position: absolute; left: 50%; top: 50%; width: 0.75rem; height: 0.775rem; -webkit-transform: translate(-50%, -50%); }
+.OpenShopHead .con .AddressBox .text { float: left; margin-left: 0.175rem; font-size: 0.65rem; }
+.OpenShopHead a, .OpenShopHead a:visited { color: inherit; }
+.PreviewEntry { position: absolute; right: 0; top: 0.125rem; width: 2.725rem; height: 4.225rem; line-height: 4.225rem; color: rgba(255,255,255,.8); }
+.PreviewEntry .iconfont { font-size: 1.2rem; }
+/*数据统计*/
+.DataStatistics { background: #fbfbfb; }
+.DataStatistics .con { padding: 0.4rem 0.5rem 0.525rem 0.5rem; }
+.DataStatistics .con li { height: 1.5rem; line-height: 1.5rem; font-size: 0.65rem; }
+.DataStatistics .con li .left_text { float: left; color: #898989; }
+.DataStatistics .con li .right_text { float: right; font-weight: 700; }
+.DataStatistics .OtherInfo li { float: left; position: relative; width: 33.3333%; height: 3rem; text-align: center; padding-top: 0.25rem; }
+.DataStatistics .OtherInfo li:before { position: absolute; right: 0; top: 0.45rem; width: 1px; height: 2.2rem; content: ''; background: #dcdddd; }
+.DataStatistics .OtherInfo li:last-of-type:before { display: none; }
+.DataStatistics .OtherInfo li .num { height: 1.35rem; line-height: 1.35rem; font-size: 0.9rem; color: #221815; }
+.DataStatistics .OtherInfo li .text { height: 1.125rem; line-height: 1.125rem; font-size: 0.675rem; color: #898989; }
+.OperationEntry { background: #fff; }
+.OperationEntry .AddProductEntry { height: 2.5rem; line-height: 2.5rem; color: #f84e37; text-align: center; }
+.OperationEntry .AddProductEntry .box { display: inline-block; }
+.OperationEntry .AddProductEntry .iconfont { font-size: 1.075rem; }
+.OperationEntry .AddProductEntry .text { font-size: 0.75rem; }
+.OperationEntry .con li { position: relative; float: left; width: 4rem; height: 3.75rem; text-align: center; border: #efefef solid 1px; border-left: none; margin-bottom: -1px; }
+.OperationEntry .con li .iconfont { display: inline-block; height: 2.3rem; line-height: 2.3rem; font-size: 1.55rem; }
+.OperationEntry .con li .icon-red { position: absolute; right: -1px; top: 0; width: 1.95rem; height: 1.95rem; line-height: 1.95rem; font-size: 1.95rem; color: #fa5d32; }
+.OperationEntry .con li p { height: 0.75rem; line-height: 0.75rem; font-size: 0.55rem; color: #595757; }
+.Advertisement2 { height: 3.675rem; background: #FFF; }
+.Advertisement2 img { width: 100%; height: 3.675rem; }
+/*------------------------------------分类------------------------------------*/
+.Classification { padding: 2.2rem 0 2.5rem 0; position: relative; }
+.Classification .LargeClassificationBox { position: relative; width: 3.45rem; height: 100%; background: #fff; overflow: hidden; }
+#scroller { position: absolute; }
+.Classification .LargeClassification { width: 3.45rem; text-align: center; }
+.Classification .LargeClassification li { width: 3.45rem; height: 2.25rem; line-height: 2.25rem; font-size: 0.6rem; color: #595757; background: #fff; border-bottom: #efeff4 solid 1px; }
+.Classification .LargeClassification li.on { color: #f84e37; }
+.Classification .SmallClassBox { position: relative; width: 11.55rem; height: 100%; overflow: hidden; }
+.Classification .SmallClass { width: 11.55rem; }
+.Classification .SmallClass .ads { width: 11.55rem; height: 3.9rem; margin-top: 0.2rem; }
+.Classification .SmallClass .ads img { width: 11.55rem; height: 3.9rem; vertical-align: bottom; }
+.Classification .SmallClass .tit { position: relative; height: 1.65rem; line-height: 1.65rem; }
+.Classification .SmallClass .tit:before { position: absolute; left: 0; top: 0.825rem; width: 100%; height: 1px; background: #b5b6b6; content: ''; }
+.Classification .SmallClass .tit h2 { position: absolute; left: 0; top: 0; width: 2.925rem; font-size: 0.6rem; color: #898989; background: #efeff4; }
+.Classification .SmallClass .con { width: 11.55rem; }
+.Classification .SmallClass .con ul { width: 12.5rem; }
+.Classification .SmallClass .con li { position: relative; float: left; width: 3.675rem; height: 5.6rem; text-align: center; border: #dcdddd solid 1px; background: #fff; margin: 0 0.25rem 0.25rem 0; }
+.Classification .SmallClass .con li .iconfont { position: absolute; left: 0.25rem; top: 0.25rem; width: 1.05rem; height: 1.05rem; line-height: 1.05rem; font-size: 1.05rem; color: #898989; }
+.Classification .SmallClass .con li .icon-pitchon { color: #f84e37; }
+.Classification .SmallClass .con li .pic { width: 3.575rem; height: 4.5rem; }
+.Classification .SmallClass .con li .pic img { width: 3.575rem; height: 4.5rem; vertical-align: bottom; }
+.Classification .SmallClass .con li .name { height: 1rem; line-height: 1rem; font-size: 0.55rem; color: #595757; }
+/*------------------------------------商品详情------------------------------------*/
+.CommodityDetails .ProPic { height: 11.275rem; }
+.CommodityDetails .ProPic img { height: 11.275rem; vertical-align: bottom; }
+.CommodityDetails .BasicInfo { border-bottom: #dcdddd solid 1px; border-top: #dcdddd solid 1px; overflow: hidden; }
+.CommodityDetails .BasicInfo h1 { height: 2.25rem; line-height: 1.125rem; font-size: 0.7rem; color: #595757; margin: 0.25rem 0 0 0; overflow: hidden; }
+.CommodityDetails .BasicInfo .Classify { height: 1.1rem; line-height: 1.1rem; font-size: 0.5rem; color: #898989; }
+.CommodityDetails .BasicInfo .Price { height: 1.15rem; line-height: 1.15rem; }
+.CommodityDetails .BasicInfo .Price .PresentPrice { font-size: 0.8rem; font-weight: 700; color: #ff5c36; }
+.CommodityDetails .BasicInfo .Price .OriginalPrice { font-size: 0.6rem; color: #b5b5b6; text-decoration: line-through; margin-left: 0.875rem; }
+.CommodityDetails .BasicInfo .Freight { height: 1.2rem; line-height: 1.2rem; font-size: 0.5rem; }
+.CommodityDetails .BasicInfo .Freight .Location { margin-left: 1.925rem; }
+.CommodityDetails .BasicInfo .Service { height: 1.5rem; line-height: 1.5rem; background: #f8f8f8; padding: 0 0.5rem; }
+.CommodityDetails .BasicInfo .Service .iconfont { float: left; font-size: 0.7rem; color: #ff5c36; }
+.CommodityDetails .BasicInfo .Service span { float: left; font-size: 0.5rem; color: #595757; margin: 0 0.5rem 0 0.125rem; }
+.CommodityAttribute { height: 1.775rem; line-height: 1.775rem; font-size: 0.65rem; color: #595757; border-bottom: #dcdddd solid 1px; padding: 0 0.5rem; background: #fff; }
+.CommodityAttribute .icon-rightdot { font-size: 0.5rem; color: #898989; }
+.CommodityEvaluation { padding: 0.15rem 0.5rem 0 0.5rem; background: #fff; }
+.CommodityEvaluation .tit { height: 1.825rem; line-height: 1.8rem; color: #595757; border-bottom: #ddddde solid 1px; }
+.CommodityEvaluation .tit h2 { float: left; font-size: 0.7rem; font-weight: 400; }
+.CommodityEvaluation .tit .data { float: right; font-size: 0.5rem; }
+.CommodityEvaluation .tit .cr_ff5c36 { color: #ff5c36; margin-left: 0.175rem; }
+.CommentList li { border-bottom: #ddddde solid 1px; }
+.CommentList .user { height: 2.05rem; line-height: 2.05rem; margin: 0.3rem 0 0.25rem 0; }
+.CommentList .user .pic, .CommentList .user .pic img { float: left; width: 2.05rem; height: 2.05rem; border-radius: 50%; vertical-align: bottom; }
+.CommentList .user span { float: left; font-size: 0.6rem; color: #595757; margin-left: 0.5rem; }
+.CommentList .text { font-size: 0.6rem; color: #898989; line-height: 0.75rem; padding: 0.25rem 0; }
+.CommentList .date { font-size: 0.5rem; color: #898989; line-height: 1.125rem; }
+.CommentList .more { line-height: 1.825rem; font-size: 0.7rem; color: #595757; text-align: center; }
+.DetailsEntry { position: relative; height: 2.35rem; line-height: 2.35rem; text-align: center; font-size: 0.65rem; color: #595757 }
+.DetailsEntry:before { position: absolute; left: 0; top: 1.175rem; width: 100%; height: 1px; background: #b5b6b6; content: ''; }
+.DetailsEntry span { display: inline-block; position: relative; padding: 0 0.375rem; z-index: 10; background: #efeff4; }
+.PurchaseOperation { left: 0; bottom: 0; width: 100%; height: 2.45rem; background: #f8f8f8; z-index: 10; }
+.PurchaseOperation .left { width: 6.85rem; height: 2.45rem; border-top: #d0cfcd solid 1px; }
+.PurchaseOperation .left li { float: left; width: 33.3333%; text-align: center; }
+.PurchaseOperation .left li .iconfont { display: inline-block; height: 1.05rem; line-height: 1.05rem; margin-top: 0.4rem; }
+.PurchaseOperation .left li span { display: inline-block; width: 100%; height: 0.975rem; line-height: 0.975rem; font-size: 0.5rem; color: #898989; }
+.PurchaseOperation .right { position:relative; width: 9.15rem; }
+.PurchaseOperation .right .tm{ position:absolute; left:0; top:0; width:100%; height:100%; background:#fff; opacity:.6;}
+.PurchaseOperation .right .but { float: left; width: 4.575rem; height: 2.425rem; line-height: 2.425rem; font-size: 0.7rem; font-weight: 700; color: #fff; text-align: center; border: 0; }
+.AttributeSelectionPop { position: fixed; left: 0; bottom: 0; width: 100%; background: #fff; z-index: 99; }
+.AttributeSelectionPop .BasicInfo { position: relative; width: 100%; height: 4.45rem; border-bottom: #ddddde solid 1px; padding: 0 0 0 5.425rem; }
+.AttributeSelectionPop .BasicInfo .icon-close { position: absolute; right: 0.5rem; top: 0.575rem; width: 1.05rem; height: 1.05rem; font-size: 1.05rem; color: #898989; }
+.AttributeSelectionPop .BasicInfo .pic { position: absolute; left: 0.5rem; top: -0.5rem; width: 4.425rem; height: 4.425rem; border: #dcdddd solid 1px; border-radius: 0.25rem; overflow: hidden; z-index: 100; }
+.AttributeSelectionPop .BasicInfo .pic img { width: 4.375rem; height: 4.375rem; border-radius: 0.25rem; vertical-align: bottom; }
+.AttributeSelectionPop .BasicInfo .Price { height: 1.45rem; line-height: 1.45rem; font-size: 0.875rem; color: #f84e37; margin: 0.5rem 0 3px 0; }
+.AttributeSelectionPop .BasicInfo .Stock { height: 1.05rem; line-height: 1.05rem; font-size: 0.55rem; color: #595757; }
+.AttributeSelectionPop .BasicInfo .SelectedAttributes { height: 0.825rem; line-height: 0.825rem; font-size: 0.55rem; padding-right: 0.5rem; color: #595757; }
+.AttributeSelectionPop .BasicInfo .Stock span, .AttributeSelectionPop .BasicInfo .SelectedAttributes span { color: #898989; }
+.AttributeSelectionPop .AttributeList { padding: 0 0.5rem; }
+.AttributeSelectionPop .AttributeList h3 { line-height: 1.65rem; font-size: 0.6rem; color: #595757; }
+.AttributeSelectionPop .AttributeList ul { padding-bottom: 0.25rem; overflow: hidden; border-bottom: #ddddde solid 1px; }
+.AttributeSelectionPop .AttributeList li { float: left; line-height: 1.25rem; font-size: 0.6rem; color: #898989; padding: 0 0.5rem; margin: 0 0.5rem 0.5rem 0; background: #efefef; border-radius: 0.25rem; }
+.AttributeSelectionPop .AttributeList li.on { color: #fff; background: #fd6847; }
+.AttributeSelectionPop .Number { height: 2.5rem; padding: 0 0.5rem; }
+.AttributeSelectionPop .Number h3 { float: left; height: 2.5rem; line-height: 2.5rem; font-size: 0.6rem; color: #595757; }
+.AttributeSelectionPop .Number .Purchase { float: left; width: 8.45rem; height: 2.5rem; line-height: 2.5rem; padding-right: 0.875rem; color: #b5b5b6; text-align: right; }
+.AttributeSelectionPop .Number .QuantityControl { float: right; width: 5.3rem; }
+.AttributeSelectionPop .Number .QuantityControl .iconfont { height: 2.5rem; line-height: 2.5rem; font-size: 1.125rem; color: #595757; background: #fff; border: 0; }
+.AttributeSelectionPop .Number .QuantityControl .no { color: #d3d2d2; }
+.AttributeSelectionPop .Number .QuantityControl .num { width: 3rem; font-size: 0.85rem; color: #595757; text-align: center; height: 2.5rem; line-height: 2.5rem; }
+.AttributeSelectionPop .OperationButton button { width: 50%; height: 2.45rem; line-height: 2.45rem; font-size: 0.75rem; font-weight: 700; color: #fff; border: 0; text-align: center; }
+/*商品下架*/
+.CommodityShelf{ position:fixed; left:0; bottom:2.4rem; width:100%; height:1.925rem; line-height:1.925rem; text-align:center; font-size:0.6rem; color:#fff; background:#b5b6b6; z-index:90;}
+/*------------------------------------店铺设置------------------------------------*/
+.ShopSetting .Head { height: 4.65rem; background: #f84e37; }
+.ShopSetting .Head .Return { position: absolute; left: 0.375rem; top: 0.75rem; width: 0.725rem; height: 0.725rem; font-size: 0.725rem; color: #fff; }
+.ShopSetting .Head .Name { float: left; height: 1.15rem; line-height: 1.15rem; margin: 2.5rem 0 0 0.5rem; color: #fff; }
+.ShopSetting .Head .Name .icon-face { float: left; font-size: 0.8rem; margin-right: 0.375rem; }
+.ShopSetting .Head .Name span { float: left; font-size: 0.7rem; }
+.ShopSetting .Head .Photo { float: right; width: 3.6rem; height: 3.6rem; border-radius: 50%; overflow: hidden; margin: 0.425rem 0.7rem 0 0; }
+.ShopSetting .Head .Photo img { width: 3.6rem; height: 3.6rem; border-radius: 50%; vertical-align: bottom; }
+.ShopSetting .List { border-bottom: #ddddde solid 1px; padding: 0 0.5rem; }
+.ShopSetting .List li { height: 2.275rem; line-height: 2.25rem; color: #595757; border-bottom: #ddddde solid 1px; }
+.ShopSetting .List li:last-of-type { border: none; }
+.ShopSetting .List li .LeftIcon { float: left; width: 0.8rem; font-size: 0.8rem; }
+.ShopSetting .List li .LeftText { float: left; font-size: 0.7rem; margin-left: 0.375rem; }
+.ShopSetting .List li .RightText { float: right; font-size: 0.6rem; color: #898989; }
+.ShopSetting .List li .icon-rightdot { float: right; width: 0.925rem; text-align: right; font-size: 0.5rem; color: #898989; }
+.ShopSetting .List li .HeartLevel { float: right; }
+.ShopSetting .List li .HeartLevel .icon-heart { float: left; font-size: 0.75rem; color: #e60012; margin-left: 0.25rem; }
+/*------------------------------------店铺管理------------------------------------*/
+.StoreManagement { padding-top: 2.2rem; }
+.StoreManagement .StoreInfo { height: 3.4rem; padding: 0.15rem 0 0 0.875rem; background: #f84e38; }
+.StoreManagement .StoreInfo .Photo { float: left; width: 2.75rem; height: 2.75rem; border-radius: 50%; margin-right: 1rem; }
+.StoreManagement .StoreInfo .Photo img { width: 2.75rem; height: 2.75rem; border-radius: 50%; vertical-align: bottom; }
+.StoreManagement .StoreInfo .Con { float: left; color: #fff; }
+.StoreManagement .StoreInfo .Con h1 { height: 1.75rem; line-height: 1.75rem; font-size: 0.75rem; font-weight: 400; }
+.StoreManagement .StoreInfo .Con p { height: 1.15rem; line-height: 1.15rem; font-size: 0.6rem; }
+.StoreManagement .OperationEntry { height: 2.45rem; line-height: 2.425rem; border-bottom: #dcdddd solid 1px; overflow: hidden; }
+.StoreManagement .OperationEntry li { float: left; width: 33.3333%; text-align: center; color: #f84e37; text-align: center; }
+.StoreManagement .OperationEntry li .spantc { display: inline-block; }
+.StoreManagement .OperationEntry li .iconfont { float: left; width: 1rem; font-size: 1rem; text-align: center; margin-right: 0.25rem; }
+.StoreManagement .OperationEntry li .text { float: left; font-size: 0.65rem; }
+/*筛选*/
+.SortBox { width: 100%; }
+.Sort { position: relative; width: 100%; height: 1.775rem; border-bottom: #dcdddd solid 1px; background: #f8f8f8; }
+.Sort .ClassA li { position: relative; float: left; width: 33.3333%; height: 1.775rem; line-height: 1.75rem; color: #595757; text-align: center; }
+.Sort .ClassA li:before { position: absolute; right: 0; top: 0.25rem; width: 1px; height: 1.25rem; background: #dcdddd; content: ''; }
+.Sort .ClassA li.on { color: #f84e37; }
+.Sort .ClassA li:last-of-type:before { display: none; }
+.Sort .ClassA li .icon-downdot, .Sort .ClassA li .icon-topdot { font-size: 0.25rem; margin-left: 0.15rem; }
+.Sort .ClassA li .spantc { display: inline-block; }
+.Sort .ClassA li .text { float: left; font-size: 0.65rem; }
+.Sort .Type1 { position: absolute; left: 0; top: 1.75rem; width: 100%; }
+.Sort .Type1 li { height: 2.275rem; line-height: 2.25rem; font-size: 0.65rem; color: #595757; border-bottom: #dcdddd solid 1px; background: #efeff4; padding: 0 0.5rem; }
+.Sort .Type1 li.on { color: #f84e37; }
+.Sort .Type1 li .icon-correct { float: right; width: 0.8rem; font-size: 0.8rem; }
+.Sort .Type2 { position: absolute; left: 0; top: 1.75rem; width: 100%; overflow: hidden; background: #efeff4; }
+.Sort .Type2 h2 { height: 2.25rem; line-height: 2.25rem; font-size: 0.65rem; font-weight: 400; color: #595757; padding: 0 0.5rem; }
+.Sort .Type2 li { float: left; width: 3.375rem; height: 1.3rem; line-height: 1.3rem; font-size: 0.65rem; color: #595757; margin: 0 0 0.625rem 0.5rem; background: #f9f9f9; border-radius: 0.25rem; text-align: center; }
+.Sort .Type2 li.on { color: #fff; background: #f84e37; }
+.Sort .Type2 button { width: 100%; height: 2.45rem; line-height: 2.45rem; text-align: center; font-size: 0.9rem; color: #fff; border: 0; background: #f84e37; }
+/*商品列表公用*/
+.ProList li { position:relative; padding: 0.5rem; border-bottom: #dcdddd solid 1px; overflow: hidden; }
+.ProList li .Pic { float: left; width: 4rem; height: 4rem; margin-right: 0.5rem; }
+.ProList li .Pic img { width: 4rem; height: 4rem; vertical-align: bottom; }
+.ProList li .Con { float: left; width: 10.5rem; }
+.ProList li .Con h2 { height: 1.5rem; font-size: 0.6rem; color: #595757; overflow: hidden; margin-bottom: .25rem; }
+.ProList li .Price { height: 1.5rem; line-height: 1.5rem; font-size: 0.6rem; color: #595757; }
+.ProList li .Statistics { height: 0.75rem; font-size: 0.5rem; color: #898989; }
+.ProList li .icon-edit2{ position:absolute; right:0.5rem; bottom:0.5rem; width:1.175rem; font-size:1.175rem; color:#f84e37;}
+/*------------------------------------添加商品------------------------------------*/
+.AddProduct { padding-top: 2.25rem; }
+.header2 { height: 2.25rem; background: #f8f8f8; color: #595757; border-bottom: #dcdddd solid 1px; }
+.header2 .Sweep3, .header2 .icon-leftdot { color: #595757; }
+.EditPro .ProList li .Choice { float: left; width: 1.4rem; height: 4rem; }
+.EditPro .ProList li .Choice .iconfont { width: 1.4rem; height: 4rem; line-height: 4rem; font-size: 0.9rem; color: #898989; }
+.EditPro .ProList li .Choice .icon-pitchon { color: #f84e37; }
+.EditPro .ProList li .Con { float: left; width: 9.1rem; }
+.AddProductOperation { height: 2.45rem; background: #f8f8f8; z-index: 10; }
+.AddProductOperation .left { width: 9.075rem; height: 2.45rem; line-height: 2.425rem; padding: 0 0 0 0.5rem; border-top: #d0cfcd solid 1px; }
+.AddProductOperation .left .iconfont { float: left; width: 1.4rem; height: 2.425rem; line-height: 2.425rem; font-size: 0.9rem; color: #898989; }
+.AddProductOperation .left .icon-pitchon { color: #f84e37; }
+.AddProductOperation .left .text { float: left; font-size: 0.625rem; color: #595757; line-height: 2.5rem; }
+.AddProductOperation .right { width: 6.925rem; }
+.AddProductOperation .right .but { width: 6.925rem; height: 2.425rem; line-height: 2.425rem; font-size: 0.7rem; color: #fff; background: #ff5c36; border: 0; }
+/*------------------------------------商品管理------------------------------------*/
+.CommodityMana { padding-top: 2.25rem; }
+.CommodityOperation { height: 2.45rem; line-height: 2.425rem; border-bottom: #dcdddd solid 1px; background: #f8f8f8; overflow: hidden; }
+.CommodityOperation li { float: left; width: 50%; text-align: center; }
+.CommodityOperation li .spantc { display: inline-block; }
+.CommodityOperation li .iconfont { float: left; font-size: 1.05rem; margin-right: 0.35rem; }
+.CommodityOperation li .text { float: left; font-size: 0.65rem; color: #595757; }
+.CommodityOperation li .icon-add2 { color: #07b672; }
+.CommodityOperation li .icon-batch { color: #00a0e9; }
+
+.MoreOperation{ height:7rem; background:#fff; padding:1.4rem 0 0 0;}
+.MoreOperation li{ float:left; width:25%; text-align:center;}
+.MoreOperation .iconfont{ display:inline-block; width:2.5rem; height:2.5rem; line-height:2.5rem; font-size:1.25rem; color:#fff; border-radius:50%;}
+.MoreOperation p{ height:2.45rem; line-height:2.45rem; font-size:0.65rem; color:#595757;}
+/*------------------------------------批量管理------------------------------------*/
+.BatchManagement { padding-top: 1.775rem; }
+.BatchManagementOperation { height: 2.45rem; background: #f8f8f8; z-index: 10; border-top: #d0cfcd solid 1px; }
+.BatchManagementOperation .left { width: 3.95rem; height: 2.45rem; line-height: 2.425rem; padding: 0 0 0 0.5rem; }
+.BatchManagementOperation .left .iconfont { float: left; width: 1.4rem; height: 2.425rem; line-height: 2.425rem; font-size: 0.9rem; color: #898989; }
+.BatchManagementOperation .left .icon-pitchon { color: #f84e37; }
+.BatchManagementOperation .left .text { float: left; font-size: 0.625rem; color: #595757; line-height: 2.5rem; }
+.BatchManagementOperation .right { width: 12.05rem; }
+.BatchManagementOperation .right button { float: left; width: 3.7rem; height: 2.125rem; line-height: 2.125rem; font-size: 0.75rem; color: #fff; text-align: center; border: 0; margin: 0.125rem 0.25rem 0 0; border-radius: 0.25rem; }
+/*------------------------------------购物车------------------------------------*/
+.ShoppingCartPage { padding-top: 2.45rem; }
+.ShoppingCartPage header .icon-list { float: right; width: 1.925rem; font-size: 0.75rem; text-align: center; color: #595757; }
+.ShoppingCartPage header .con { position: relative; float: left; width: 12.15rem; height: 2.2rem; }
+.ShoppingCartPage header .con ul { position: absolute; left: 50%; top: 0; width: 6.25rem; -webkit-transform: translate(-50%, 0); }
+.ShoppingCartPage header .con li { position: relative; float: left; width: 3.125rem; height: 2.225rem; font-size: 0.75rem; color: #595757; text-align: center; }
+.ShoppingCartPage header .con li.on { color: #f84e37; }
+.ShoppingCartPage header .con li.on:before { position: absolute; left: 0; bottom: 0; width: 100%; height: 0.125rem; background: #f84e37; content: ''; }
+/*店铺商品列表*/
+.ShopGoods .Tit { height: 2.3rem; line-height: 2.3rem; background: #fff; padding: 0 0.5rem; border-bottom: #dcdddd solid 1px; overflow: hidden; }
+.ShopGoods .Tit .ChoiceT { float: left; }
+.ShopGoods .Tit .ChoiceT .iconfont { width: 1.4rem; font-size: 0.9rem; color: #898989; }
+.ShopGoods .Tit .ChoiceT .icon-pitchon { color: #f84e37; }
+.ShopGoods .Tit .ShopName { float: left; background: #fff; padding: 0 0.5rem; }
+.ShopGoods .Tit .ShopName .Name { float: left; font-size: 0.6rem; color: #595757; margin-right: 0.425rem; }
+.ShopGoods .Tit .ShopName .icon-franchisedstore, .ShopGoods .Tit .ShopName .icon-flagshipstore { float: left; font-size: 2.625rem; color: #71a8ac; }
+.ShopGoods .Tit .ShopName .icon-rightdot { float: left; font-size: 0.6rem; color: #595757; margin-left: 0.4rem; }
+.ShopGoods .Tit .EditBut { float: right; position: relative; width: 1.75rem; font-size: 0.6rem; text-align: right; color: #595757; }
+.ShopGoods .Tit .EditBut:before { position: absolute; left: 0; top: 0.475rem; width: 1px; height: 1.375rem; content: ''; background: #efeff4; }
+.ShopGoods .ProList li { float: left; background: #f5f5f5; border-bottom: #fff solid 2px; }
+.ShopGoods .ProList li:last-of-type { border-bottom: none; }
+.ShopGoods .ProList li .Attribute { height: 0.875rem; line-height: 0.875rem; font-size: 0.6rem; color: #898989; margin-bottom: 0.625rem; }
+.ShopGoods .ProList li .Pic { margin: 0; }
+.ShopGoods .ProList li .Con { width: 9.6rem; }
+.ShopGoods .ProList li .Con .Edit { width: 9.6rem; }
+.ShopGoods .ProList li .Con .Edit { width: 9.6rem; }
+/*数量控制*/
+.ShopGoods .ProList li .QuantityControl { float: left; width: 7.275rem; height: 1.825rem; line-height: 1.8rem; border-bottom: #fff solid 1px; }
+.ShopGoods .ProList li .QuantityControl .icon-reduce { float: left; width: 2.3rem; height: 1.8rem; border-right: #fff solid 1px; }
+.ShopGoods .ProList li .QuantityControl .num { float: left; width: 2.675rem; font-size: 0.75rem; color: #595757; }
+.ShopGoods .ProList li .QuantityControl .icon-increase { float: left; width: 2.3rem; height: 1.8rem; border-left: #fff solid 1px; }
+.ShopGoods .ProList li .QuantityControl .no { color: #c6c6c6; }
+/*已选属性*/
+.ShopGoods .ProList li .SelectedAttributes { float: left; width: 7.275rem; height: 2.175rem; }
+.ShopGoods .ProList li .SelectedAttributes p { float: left; width: 5rem; margin: 0.5rem 0 0 0.675rem; overflow: hidden; }
+.ShopGoods .ProList li .SelectedAttributes .icon-downdot2 { width: 1rem; height: 2.175rem; line-height: 2.175rem; text-align: center; font-size: 0.6rem; color: #595757 }
+.ShopGoods .ProList li .DelBut { float: right; width: 2.325rem; height: 4rem; line-height: 4rem; color: #fff; font-size: 0.65rem; text-align: center; background: #fd6847; }
+.ShopGoods .ProList li .PriceQuantity { height: 0.75rem; line-height: 0.75rem; font-size: 0.6rem; font-weight: 700; color: #898989; }
+.ShopGoodsOperation { height: 2.45rem; background: #f8f8f8; z-index: 10; }
+.ShopGoodsOperation .left { width: 11.55rem; height: 2.45rem; line-height: 2.425rem; padding: 0 0 0 0.5rem; border-top: #d0cfcd solid 1px; }
+.ShopGoodsOperation .left .iconfont { float: left; width: 1.4rem; height: 2.425rem; line-height: 2.425rem; font-size: 0.9rem; color: #898989; }
+.ShopGoodsOperation .left .icon-pitchon { color: #f84e37; }
+.ShopGoodsOperation .left .text { float: left; font-size: 0.625rem; color: #595757; line-height: 2.5rem; }
+.ShopGoodsOperation .left .Statistics { float: right; width: 8rem; padding: 0.25rem 0.625rem 0 0; }
+.ShopGoodsOperation .left .Statistics .Total { font-size: 0.6rem; height: 0.925rem; line-height: 0.925rem; color: #595757; }
+.ShopGoodsOperation .left .Statistics .Freight { font-size: 0.6rem; color: #898989; line-height: 1rem; }
+.ShopGoodsOperation .right { width: 4.45rem; }
+.ShopGoodsOperation .right .but { width: 4.45rem; height: 2.425rem; line-height: 2.425rem; font-size: 0.7rem; color: #fff; background: #ff5c36; border: 0; }
+/*------------------------------------分销订单管理------------------------------------*/
+.DistributionOrder { padding-top: 4.7rem; }
+.DistributionOrder .ProList li { padding: 0; margin-bottom: 0.25rem; }
+.DistributionOrder .ProList .tit { height: 1.25rem; line-height: 1.25rem; font-size: 0.55rem; color: #898989; background: #fff; margin-bottom: 0.45rem; padding: 0 0.5rem; }
+.DistributionOrder .ProList li .Pic { margin-left: 0.5rem; }
+.DistributionOrder .ProList li .Con { width: 10.5rem; }
+.DistributionOrder .ProList li .Con h2 { width: 7.875rem; line-height: 0.75rem; margin: 0; }
+.DistributionOrder .ProList li .Con .Attributes { width: 7.875rem; height: 1.25rem; line-height: 1.25rem; font-size: 0.6rem; color: #898989; overflow: hidden; }
+.DistributionOrder .ProList li .Con .fr { width: 2.625rem; }
+.DistributionOrder .ProList li .Con .fr .Prices { font-size: 0.6rem; color: #595757; }
+.DistributionOrder .ProList li .Con .fr .Num { font-size: 0.6rem; line-height: 1.25rem; color: #898989; }
+.DistributionOrder .ProList li .Con .Total { float: left; width: 10.5rem; height: 1.375rem; line-height: 1.375rem; font-size: 0.6rem; color: #595757; }
+.DistributionOrder .ProList li .Operation { width: 100%; height: 1.625rem; padding: 0 0.5rem; background: #fff; padding-top: 0.175rem; overflow: hidden; }
+.DistributionOrder .ProList li .Operation .iconfont { vertical-align: middle; }
+.DistributionOrder .ProList li .Operation .but1 { display: inline-block; height: 1.3rem; line-height: 1.25rem; text-align: center; font-size: 0.6rem; border: #dcdddd solid 1px; border-radius: 0.125rem; padding: 0 0.375rem; }
+.DistributionOrder .ProList li .Operation .OnlineConsultation { display: block; width: 4.1rem; height: 1.3rem; line-height: 1.3rem; text-align: center; font-size: 0.6rem; color: #fff; border-radius: 0.125rem; background: #23a6ea; }
+.DistributionOrder .ProList li .Operation .MakePhoneCall { display: block; width: 4.1rem; height: 1.3rem; line-height: 1.3rem; text-align: center; font-size: 0.6rem; color: #fff; border-radius: 0.125rem; background: #f84e37; }
+.DistributionOrder .ProList li .Operation .Delete { display: block; width: 3.325rem; height: 1.3rem; line-height: 1.25rem; text-align: center; font-size: 0.6rem; color: #898989; border: #b5b5b6 solid 1px; border-radius: 0.125rem; background: #efefef; }
+.Tabs2 { position: relative; height: 2.2rem; text-align: center; border-bottom: #dcdddd solid 1px; background: #f8f8f8; z-index:99; }
+.Tabs2 ul { position: absolute; left: 0; top: 0; width: 100%; height: 2.2rem; }
+.Tabs2 li { position: relative; float: left; width: 20%; height: 2.2rem; line-height: 2.175rem; font-size: 0.65rem; color: #595757; }
+.Tabs2 li.on { color: #f84e37; }
+.Tabs2 li.on:after { position: absolute; left: 0; bottom: 0; width: 100%; height: 3px; content: ''; background: #f84e37; }
+.Tabs2 li.w167 { width: 4.175rem; }
+.Tabs2 li.w211 { width: 5.275rem; }
+.Tabs2 li.w262 { width: 6.55rem; }
+.Tabs2 li.w50b { width: 50%; }
+
+/*------------------------------------邀请合伙人------------------------------------*/
+.InvitePartners { padding-top: 2.2rem; }
+.InvitePartners .Rule { padding-right: 0.5rem; color: #f84e37; }
+.InvitePartners .List { background: #FFF; overflow: hidden; }
+.InvitePartners .List li { padding: 0.925rem 0 0.25rem 0; overflow: hidden; }
+.InvitePartners .List li .lefticon { float: left; width: 5.1rem; text-align: center; height: 2.8rem; }
+.InvitePartners .List li .lefticon .iconfont { display: inline-block; width: 2.8rem; height: 2.8rem; line-height: 2.8rem; font-size: 1.4rem; color: #fff; border-radius: 50%; }
+.InvitePartners .List li .con { float: right; width: 10.9rem; padding-right: 0.5rem; }
+.InvitePartners .List li .con h2 { height: 0.875rem; line-height: 0.875rem; font-size: 0.65rem; color: #595757; }
+.InvitePartners .List li .con p { line-height: 0.85rem; font-size: 0.6rem; color: #898989; }
+/*------------------------------------注册新用户------------------------------------*/
+/*表单填写*/
+.FormFilling li { width: 100%; height: 2.125rem; border-bottom: #dcdddd solid 1px; padding: 0 0.5rem; background: #fff; overflow: hidden; }
+.FormFilling li .lefticon { float: left; width: 1.3rem; height: 2.1rem; line-height: 2.1rem; font-size: 0.825rem; color: #595757; }
+.FormFilling li .rightcon { float: left; height: 2.1rem; }
+.FormFilling li .rightcon .inp { width: 100%; height: 2.1rem; font-size: 0.7rem; border: 0; }
+.FormFilling li .w548 { width: 13.7rem; }
+.FormFilling li .w410 { width: 10.25rem; }
+.VerificationBut { width: 3.45rem; height: 1.475rem; line-height: 1.425rem; text-align: center; font-size: 0.6rem; color: #898989; border: #898989 solid 1px; background: #fff; border-radius: 0.25rem; margin-top: 0.325rem; }
+.AgreementEntry { height: 2rem; line-height: 2rem; color: #898989; padding: 0 0.5rem; }
+.AgreementEntry .iconfont { width: 0.825rem; height: 0.825rem; font-size: 0.825rem; margin-right: 0.375rem; }
+.AgreementEntry .icon-pitchon2 { color: #fd6847; }
+.ForgetPasswordEntry { line-height: 1.625rem; font-size: 0.65rem; }
+.LoginLogoImage { position: fixed; left: 0; bottom: 1.125rem; width: 100%; height: 1.9rem; }
+.LoginLogoImage .con { position: relative; height: 1.9rem; text-align: center; }
+.LoginLogoImage .con:after { position: absolute; left: 0; top: 50%; width: 100%; height: 1px; background: #9e9e9e; content: ''; }
+.LoginLogoImage .con .pic { position: absolute; left: 4.575rem; top: 0; width: 6.85rem; background: #efeff4; z-index: 10; }
+.LoginLogoImage .con img { width: 4.525rem; height: 1.9rem; vertical-align: bottom; z-index: 10; }
+/*------------------------------------登录------------------------------------*/
+
+.LoginIndex .logo { height: 8.8rem; padding-top: 2.95rem; }
+.LoginIndex .logo img { width: 7.05rem; height: 2.975rem; vertical-align: bottom; }
+.LoginIndex .loginbut { padding: 0 1.35rem; }
+.LoginIndex .loginbut a, .LoginIndex .loginbut a:visited { display: block; width: 100%; height: 1.8rem; line-height: 1.8rem; font-size: 0.75rem; margin-bottom: 0.7rem; border-radius: 0.25rem; }
+.LoginIndex .loginbut a.but1, .LoginIndex .loginbut a.but1:visited { color: #fff; background: #fd6847; }
+.LoginIndex .loginbut a.but2, .LoginIndex .loginbut a.but2:visited { line-height: 1.75rem; border: #fd6847 solid 1px; color: #fd6847; background: #fff; }
+.LoginIndex .QuickLogin { position: fixed; left: 0; bottom: 0; width: 100%; }
+.LoginIndex .QuickLogin .tit { position: relative; height: 1.15rem; line-height: 1.15rem; text-align: center; }
+.LoginIndex .QuickLogin .tit:after { position: absolute; left: 0; top: 50%; width: 100%; height: 1px; background: #9e9e9e; content: ''; }
+.LoginIndex .QuickLogin .tit h2 { display: inline-block; position: relative; text-align: center; height: 1.15rem; font-size: 0.65rem; color: #898989; background: #fff; padding: 0 0.5rem; z-index: 10; }
+.LoginIndex .QuickLogin .con { padding: 0.625rem 0; overflow: hidden; }
+.LoginIndex .QuickLogin .con span { display: inline-block; }
+.LoginIndex .QuickLogin .con .iconfont { float: left; width: 2.7rem; height: 2.7rem; font-size: 2.7rem; margin: 0 1.85rem; }
+.LoginIndex .QuickLogin .con .icon-microchannellogin { color: #74c836; }
+.LoginIndex .QuickLogin .con .icon-qqlogin { color: #2dadf3; }
+/*------------------------------------设置------------------------------------*/
+
+.nav_list2 li { border-bottom: #dcdddd solid 1px; }
+.nav_list2 li:last-of-type { border: 0; }
+.nav_list2 li.h114 { height: 2.875rem; line-height: 2.85rem; }
+.photo { width: 2.575rem; height: 2.575rem; border: #dcdddd solid 1px; border-radius: 50%; margin-top: 0.125rem; overflow: hidden; }
+.photo img { width: 100%; height: auto; vertical-align: bottom; border-radius: 50%; }
+.nav_list2 li.h90 { height: 2.25rem; line-height: 2.25rem; }
+.nav_list2 li .lefticon { float: left; width: 0.8rem; font-size: 0.8rem; color: #5d5b5b; margin: 0 0.425rem 0 0; }
+.nav_list2 li .lefttext { color: #595757; font-size: 0.7rem; }
+.nav_list2 li .righttext { font-size: 0.6rem; color: #898989; }
+.nav_list2 li .icon-rightdot { width: 0.925rem; text-align: right; font-size: 0.5rem; color: #898989; }
+.IntroducesBox { padding: 0.5rem; }
+.IntroducesBox textarea { width: 100%; height: 5rem; padding: 0.125rem 0; font-size: 0.7rem; line-height: 0.65rem; background: #fff; border: 0; }
+/*------------------------------------店铺首页------------------------------------*/
+.ShopHead { background: url(../images/myhead.png) center top no-repeat #fff; background-size: 16rem 5.3rem; }
+.ShopHead .follow { position: absolute; right: 0.5rem; top: 3.45rem; z-index: 99; background: rgba(0,0,0,.2) }
+.ShopHead .con { height: 5.3rem; }
+.ShopHead .con h1 { float: left; width: 100%; overflow: hidden; height: 1.75rem; line-height: 1.75rem; font-size: 0.65rem; color: #fff; padding: 0 0.5rem 0 4.475rem; margin-top: 3.55rem; }
+.ShopHead .con .icon-shoppingcart { position: absolute; right: 1.5rem; top: 0.625rem; width: 1.05rem; height: 1.05rem; font-size: 1.05rem; color: #fff; }
+.ShopHead .Photo { position: absolute; left: 0.9rem; top: 3.775rem; width: 3.1rem; height: 3.1rem; border-radius: 50%; border: #fff solid 3px; overflow: hidden; }
+.ShopHead .Photo img { width: 2.95rem; height: 2.95rem; border-radius: 50%; vertical-align: bottom; }
+.ShopSfy { height: 1.625rem; line-height: 1.625rem; padding: 0 0 0 4.475rem; }
+.ShopSfy .iconfont { float: left; }
+.ShopSfy .icon-flagshipstore { font-size: 2.75rem; color: #71a8ac; }
+.ShopSfy .icon-heart { font-size: 0.75rem; color: #e60012; margin-right: 0.25rem; }
+.ShopHead .OtherInfo { height: 2.325rem; background: #fff; border-bottom: #dcdddd solid 1px; }
+.ShopHead .OtherInfo li { float: left; position: relative; height: 2rem; text-align: center; }
+.ShopHead .OtherInfo li:before { position: absolute; right: 0; top: 0.125rem; width: 1px; height: 1.75rem; overflow: hidden; background: #dbdbdb; content: ''; }
+.ShopHead .OtherInfo li.w161 { width: 4.025rem; }
+.ShopHead .OtherInfo li.w230 { width: 5.75rem; }
+.ShopHead .OtherInfo li.w88 { width: 2.2rem; line-height: 2rem; font-size: 1.2rem; }
+.ShopHead .OtherInfo li.w88 .iconfont { font-size: 1.2rem; color: #595757; }
+.ShopHead .OtherInfo li:last-of-type:before { display: none; }
+.ShopHead .OtherInfo li .num { height: 1.225rem; line-height: 1.225rem; font-size: 0.75rem; color: #595757; }
+.ShopHead .OtherInfo li .text { height: 0.75rem; line-height: 0.75rem; font-size: 0.6rem; color: #898989; }
+/*导航*/
+.shop_nav { position: fixed; left: 0; bottom: 0; width: 100%; height: 2.5rem; border-top: #d0cfcd solid 1px; background: #f8f8f8; z-index: 10; }
+.shop_nav li { position: relative; float: left; width: 25%; text-align: center; color: #898989; }
+.shop_nav li i { display: block; font-size: 1.05rem; line-height: 1.05rem; margin-top: 0.375rem; }
+.shop_nav li p { font-size: 0.6rem; line-height: 1rem; }
+.shop_nav li.on { color: #000; }
+.shop_nav li a, .shop_nav li a:visited { color: inherit; }
+/*------------------------------------消息------------------------------------*/
+.NewsList { padding: 0 0.75rem 0.75rem 0.75rem; }
+.NewsList li { margin-top: 0.75rem; }
+.NewsList li .time span { display: inline-block; width: 5.625rem; height: 0.925rem; line-height: 0.925rem; font-size: 0.45rem; color: #fff; text-align: center; border-radius: 0.25rem; background: #b5b5b6; }
+.NewsList li .con { position: relative; margin: 0.65rem 0 0 0; padding: 0.375rem 0.75rem 0.25rem 0.75rem; background: #fff; border-bottom: #dcdddd solid 1px; }
+.NewsList li .con:after { position: absolute; left: 0; top: -0.25rem; width: 100%; height: 0.25rem; background: #fd6847; content: ''; border-radius: 0.25rem 0.25rem 0 0; }
+.NewsList li .con p { line-height: 1.1rem; overflow: hidden; }
+.NewsList li .con .w385 { width: 9.625rem; }
+.NewsList li .see { height: 1.75rem; line-height: 1.75rem; font-size: 0.7rem; color: #595757; padding: 0 0.75rem; background: #fff; border-radius: 0 0 0.25rem 0.25rem; }
+.NewsList li .icon-rightdot { font-size: 0.75rem; color: #898989; }
+/*------------------------------------推广二维码------------------------------------*/
+
+.ExtensionQRcode { padding: 0.375rem 0 0 0; }
+.ExtensionQRcode .tit { height: 5.175rem; line-height: 5.175rem; font-size: 0.7rem; color: #898989; }
+.ExtensionQRcode .pic img { width: 7.5rem; height: 7.5rem; vertical-align: bottom; }
+.ExtensionQRcode .operation { padding: 3.375rem 0 0 0; }
+.ExtensionQRcode .operation li { float: left; width: 33.33%; text-align: center; }
+.ExtensionQRcode .operation li .iconfont { display: inline-block; width: 1.85rem; height: 1.85rem; line-height: 1.85rem; font-size: 1rem; color: #fff; border-radius: 50%; }
+.ExtensionQRcode .operation li p { line-height: 1.25rem; font-size: 0.6rem; color: #898989; }
+/*------------------------------------客户管理------------------------------------*/
+.CustomerManagement li { height: 3.2rem; padding: 0.5rem; overflow: hidden; border-bottom: #dcdddd solid 1px; }
+.CustomerManagement li .pic { float: left; width: 2.85rem; }
+.CustomerManagement li .pic img { width: 2.15rem; height: 2.15rem; vertical-align: bottom; border-radius: 50%; }
+.CustomerManagement li .w230 { float: left; width: 5.75rem; }
+.CustomerManagement li .w230 .iconfont { width: 0.65rem; height: 0.65rem; font-size: 0.65rem; margin-right: 0.25rem; color: #898989; }
+.CustomerManagement li .w256 { float: left; width: 6.4rem; }
+.CustomerManagement li p { height: 1.1rem; line-height: 1.1rem; font-size: 0.6rem; }
+/*------------------------------------评价------------------------------------*/
+
+
+.Evaluate { padding-top: 1.125rem; }
+.Evaluate .ProList li { padding: 0; margin-bottom: 0.25rem; border: 0; }
+.Evaluate .ProList .tit { height: 1.25rem; line-height: 1.25rem; font-size: 0.55rem; color: #898989; background: #fff; margin-bottom: 0.45rem; padding: 0 0.5rem; }
+.Evaluate .ProList li .Pic { margin-left: 0.5rem; }
+.Evaluate .ProList li .Con { width: 10.5rem; }
+.Evaluate .ProList li .Con h2 { width: 7.875rem; line-height: 0.75rem; margin: 0; }
+.Evaluate .ProList li .Con .Attributes { width: 7.875rem; height: 1.25rem; line-height: 1.25rem; font-size: 0.6rem; color: #898989; overflow: hidden; }
+.Evaluate .ProList li .Con .fr { width: 2.625rem; }
+.Evaluate .ProList li .Con .fr .Prices { font-size: 0.6rem; color: #595757; }
+.Evaluate .ProList li .Con .fr .Num { font-size: 0.6rem; line-height: 1.25rem; color: #898989; }
+.Evaluate .ProList li .Con .Total { float: left; width: 10.5rem; height: 1.375rem; line-height: 1.375rem; font-size: 0.6rem; color: #595757; }
+.score { height: 1rem; line-height: 1rem; padding: 0 0.5rem; }
+.score .tit { float: left; width: 3.45rem; font-size: 0.6rem; color: #595757; }
+.score .con { float: right; width: 11.55rem; }
+.score .con .iconfont { float: left; width: 0.85rem; height: 0.85rem; font-size: 0.85rem; margin-right: 0.5rem; color: #fd6847; }
+.EvaluationText { padding: 0.5rem }
+.EvaluationText textarea { width: 100%; height: 5.125rem; line-height: 0.75rem; font-size: 0.6rem; color: #898989; border: 0; padding: 0.25rem; background: #fff; }
+.ShopScore { border-top: #efeff4 solid 0.25rem; }
+.ShopScore .btit { height: 1.55rem; line-height: 1.55rem; padding: 0.5rem; font-size: 0.7rem; color: #595757; }
+/*------------------------------------收货地址------------------------------------*/
+
+.AddressList li { position: relative; padding: 0.75rem 0.5rem; border-bottom: #dcdddd solid 1px; }
+.AddressList li .con1 { height: 1.15rem; line-height: 1.15rem; color: #595757; }
+.AddressList li .con1 h2 { float: left; width: 8.5rem; font-size: 0.75rem; }
+.AddressList li .con1 .phone { float: left; width: 5.65rem; font-size: 0.7rem; }
+.AddressList li .con2 { width: 13.5rem; line-height: 1rem; font-size: 0.55rem; color: #898989; margin-top: 0.125rem; }
+.AddressList li .con2 span { color: #f84e37; margin-right: 0.625rem; }
+.AddressList li .select { position: absolute; right: 0.5rem; top: 50%; width: 0.825rem; height: 0.825rem; font-size: 0.825rem; color: #898989; -webkit-transform: translate(0, -50%); }
+.AddressList li .icon-pitchon2 { color: #fd6847; }
+.AddressList li .icon-rightdot { position: absolute; right: 0.5rem; top: 50%; width: 0.575rem; height: 0.575rem; line-height: 0.575rem; font-size: 0.575rem; color: #898989; -webkit-transform: translate(0, -50%); }
+/*编辑收货地址*/
+.EditReceiptAddress li.sli { position: relative; height: 2.175rem; line-height: 2.15rem; border-bottom: #dcdddd solid 1px; padding: 0 0.5rem; overflow: hidden; background: #fff; }
+.EditReceiptAddress li.sli .lefticon { float: left; width: 1.25rem; }
+.EditReceiptAddress li.sli .lefticon .iconfont { font-size: 0.8rem; color: #595757; }
+.EditReceiptAddress li.sli .icon-rightdot, .EditReceiptAddress li.sli .icon-downdot2 { position: absolute; right: 0.5rem; top: 50%; width: 0.575rem; height: 0.575rem; line-height: 0.575rem; font-size: 0.575rem; color: #898989; -webkit-transform: translate(0, -50%); }
+.EditReceiptAddress li.sli .w550 { width: 13.75rem; }
+.EditReceiptAddress li.sli .inp { width: 100%; height: 2.15rem; font-size: 0.65rem; color: #595757; border: 0; background: none; }
+.EditReceiptAddress li.SetDefault { height: 2.4rem; line-height: 2.375rem; margin-top: 0.5rem; }
+.EditReceiptAddress li.SetDefault .text { font-size: 0.75rem; color: #fd6847; }
+.EditReceiptAddress li.SetDefault .lefticon .icon-pitchon2, .EditReceiptAddress li.SetDefault .lefticon .icon-del { color: #fd6847; }
+.EditReceiptAddress li.sli .tm { position: absolute; left: 0; top: 0; width: 100%; height: 100%; }
+
+.SelectAddress li{ height:2.125rem; line-height:2.1rem; font-size:0.7rem; color:#595757; padding:0 0.5rem; border-bottom:#dcdddd solid 1px; background:#fff;}
+
+.SelectAddress li.Province{ background:#e6e7e7;}
+.SelectAddress li.Market{ background:#f8f8f8;}
+/*------------------------------------银行卡------------------------------------*/
+/*银行卡图标*/
+.icon-alipay2 { color: #1676cc; }
+.icon-zhaoshan { color: #cc0002; }
+.icon-jianshe { color: #005bac; }
+.BankCard { padding: 0.5rem; }
+.BankCard li { position: relative; height: 4rem; border: #dcdddd solid 1px; background: #fff; padding: 0.75rem; margin-bottom: 0.75rem; border-radius: 0.25rem; }
+.BankCard li .lefticon { float: left; width: 2.85rem; margin-top: 0.225rem; }
+.BankCard li .lefticon .iconfont { width: 2rem; height: 2rem; line-height: 2rem; font-size: 2rem; }
+.BankCard li .con { float: right; width: 10.5rem; height: 2.5rem; line-height: 1.2rem; color: #595757; }
+.BankCard li .AccountType { position: absolute; right: 0.5rem; top: 1.45rem; height: 0.9rem; line-height: 0.9rem; font-size: 0.6rem; color: #fd6847; }
+.BankCard li .AccountType .iconfont { width: 0.65rem; height: 0.65rem; font-size: 0.65rem; }
+/*表单列表*/
+.ListForms li { position: relative; height: 2.175rem; line-height: 2.15rem; border-bottom: #dcdddd solid 1px; padding: 0 0.5rem; overflow: hidden; background: #fff; }
+.ListForms li .lefticon { float: left; width: 1.25rem; }
+.ListForms li .lefticon .iconfont { font-size: 0.8rem; color: #595757; }
+.ListForms li .tit { float: left; width: 2.925rem; font-size: 0.7rem; color: #595757; }
+.FillPrompt { line-height: 2.15rem; padding: 0 0.5rem; font-size: 0.65rem; color: #898989; }
+.ListForms li .icon-rightdot, .EditReceiptAddress li .icon-downdot2 { position: absolute; right: 0.5rem; top: 50%; width: 0.575rem; height: 0.575rem; line-height: 0.575rem; font-size: 0.575rem; color: #898989; -webkit-transform: translate(0, -50%); }
+.ListForms li .w433 { width: 10.825rem; }
+.ListForms li .w253 { width: 6.325rem; }
+.ListForms li .GetVerificationCode button { float: left; width: 4.5rem; height: 1.5rem; line-height: 1.5rem; font-size: 0.7rem; color: #fff; background: #fd6847; border-radius: 0.25rem; border: 0; margin-top: 0.3rem; }
+.ListForms li .inp { width: 100%; height: 2.15rem; font-size: 0.65rem; color: #595757; border: 0; background: none; }
+.ListForms li .bank { float: left; width: 1.075rem; height: 1.075rem; font-size: 1.075rem; }
+.ListForms li .banktext { float: left; font-size: 0.75rem; color: #595757; }
+.ListForms li .icon-downdot2 { position: absolute; right: 0.9rem; top: 50%; width: 1rem; font-size: 0.6rem; color: #f84e37; -webkit-transform: translate(0, -50%); text-align: right; color: #595757; }
+.ListForms li select { position: absolute; left: 0; top: 0; width: 100%; height: 100%; font-size: 2.5rem; opacity: 0; }
+/*绑定提现帐户*/
+.BindingAccount { padding: 0 0.5rem; }
+.BindingAccount li { position: relative; height: 2.175rem; line-height: 2.15rem; border-bottom: #dcdddd solid 1px; }
+.BindingAccount li:last-of-type { border-bottom: none; }
+.BindingAccount li .lefticon { float: left; width: 3.05rem; height: 2.15rem; text-align: center; overflow: hidden; margin-right: 1rem; }
+.BindingAccount li .lefticon i { font-size: 2rem; }
+.BindingAccount li .icon-unionpay { color: #c7000b; }
+.BindingAccount li .icon-alipay3 { color: #0f78d9; }
+.BindingAccount li .tit { float: left; width: 9.95rem; font-size: 0.7rem; color: #595757; }
+.BindingAccount li .select i { width: 1rem; font-size: 0.8rem; color: #f84e37; }
+/*------------------------------------佣金提现------------------------------------*/
+.CommissionPresent .HeadBox { height: 6.25rem; background: #f84e37; color: #fff; }
+.CommissionPresent .HeadBox .head { height: 2.25rem; line-height: 2.25rem; }
+.CommissionPresent .HeadBox .head .leftcon { float: left; }
+.CommissionPresent .HeadBox .head .leftcon i { float: left; width: 1.35rem; text-align: center; font-size: 0.75rem; margin-left: 0.25rem; }
+.CommissionPresent .HeadBox .head .leftcon span { float: left; font-size: 0.75rem; }
+.CommissionPresent .HeadBox .head .rightcon { float: right; }
+.CommissionPresent .HeadBox .head .rightcon i { float: right; width: 1.35rem; margin-right: 0.25rem; text-align: center; font-size: 0.75rem; }
+.CommissionPresent .HeadBox .head .rightcon span { float: right; margin-left: 0.55rem; font-size: 0.75rem; }
+.CommissionPresent .HeadBox .con { float: left; width: 14.075rem; height: 4rem; line-height: 3.5rem; font-size: 2.5rem; padding: 0 0 0 1.6rem; }
+.CommissionPresent .HeadBox .help { width: 1.7rem; text-align: center; }
+.CommissionPresent .HeadBox .help i { width: 1.7rem; text-align: center; line-height: 3.5rem; font-size: 0.925rem; }
+.CommissionPresent .con li { border-bottom: #dcdddd solid 1px; padding: 0 0.5rem; }
+.CommissionPresent .con li.BankCard { height: 2.775rem; }
+.CommissionPresent .con li.BankCard .lefticon { float: left; width: 2.325rem; height: 2.25rem; line-height: 2.75rem; }
+.CommissionPresent .con li.BankCard .lefticon i { font-size: 1.75rem; }
+.CommissionPresent .con li.BankCard .con { float: left; width: 11.75rem; height: 2.25rem; }
+.CommissionPresent .con li.BankCard .con .text1 { height: 0.825rem; line-height: 0.825rem; margin-top: 0.55rem; font-size: 0.65rem; color: #595757; }
+.CommissionPresent .con li.BankCard .con .text2 { height: 0.825rem; line-height: 0.825rem; font-size: 0.5rem; color: #898989; }
+.CommissionPresent .con li.BankCard .rightcon { float: left; width: 0.925rem; line-height: 2.75rem; text-align: right; }
+.CommissionPresent .con li.BankCard .rightcon i { font-size: 0.7rem; color: #898989; }
+.CashWithdrawal { height: 2.25rem; }
+.CashWithdrawal .tit { float: left; width: 3.5rem; font-size: 0.6rem; color: #595757; line-height: 2.25rem; }
+.CashWithdrawal .con { float: left; width: 7.55rem; }
+.CashWithdrawal .con .inp { height: 2.15rem; margin: 0; padding: 0; font-size: 0.6rem; border: 0; }
+.CashWithdrawal .GetVerificationCode button { float: left; width: 3.95rem; height: 1.5rem; line-height: 1.5rem; font-size: 0.7rem; color: #fff; background: #fd6847; border-radius: 0.25rem; border: 0; margin-top: 0.325rem; }
+.CommissionPresent .Statistics { height: 2.725rem; border-bottom: #dcdddd solid 1px; background: #fff; }
+.CommissionPresent .Statistics li { float: left; width: 50%; height: 2.7rem; border-right: #dcdddd solid 1px; overflow: hidden; }
+.CommissionPresent .Statistics li:last-of-type { border: 0; }
+.CommissionPresent .Statistics li .text { height: 1.1rem; line-height: 1.1rem; font-size: 0.6rem; color: #898989; margin-top: 0.25rem; }
+.CommissionPresent .Statistics li .num { height: 1.05rem; line-height: 1.05rem; font-size: 0.75rem; color: #f84e37; }
+.CommissionList .CommissionTabs { position: relative; text-align: center; height: 2.225rem; background: #f3f3f3; border-bottom: #dcdddd solid 1px; }
+.Tabs2 ul { position: absolute; left: 0; top: 0; width: 100%; height: 2.225rem; }
+.CommissionList .CommissionTabs li { position: relative; float: left; width: 33.3333%; height: 2.225rem; line-height: 2.2rem; font-size: 0.75rem; color: #595757; }
+.CommissionList .CommissionTabs li i { display: inline-block; width: 0.75rem; height: 2.2rem; line-height: 2.2rem; font-size: 0.75rem; vertical-align: top; margin-right: 0.25rem; }
+.CommissionList .CommissionTabs li i:before { line-height: 2.225rem; }
+.CommissionList .CommissionTabs li.on { color: #f84e37; }
+.CommissionList .CommissionTabs li.on:after { position: absolute; left: 0; bottom: 0; width: 100%; height: 3px; content: ''; background: #f84e37; }
+.CommissionList .list { padding: 0.175rem 0.5rem; }
+.CommissionList .list li { height: 1.55rem; line-height: 1.55rem; border-bottom: #dcdddd solid 1px; color: #898989; }
+.CommissionList .list li:first-of-type { border: 0; }
+.CommissionList .list li span { float: left; }
+.CommissionList .list li .tit { width: 7rem; }
+.CommissionList .list li .num1 { width: 4.875rem; }
+.CommissionList .list li .num2 { width: 3.125rem; }
+/*------------------------------------订单确认------------------------------------*/
+
+.ConsigneeInfo { position: relative; padding: 0.5rem; background: url(../images/envelope.png) left bottom no-repeat #fff; background-size: auto 0.25rem; color: #595757; }
+.ConsigneeInfo .text1 { height: 1.2rem; line-height: 1.2rem; }
+.ConsigneeInfo .text1 .name { font-size: 0.75rem; font-weight: 700; }
+.ConsigneeInfo .text1 .tel { width: 9.375rem; font-size: 0.7rem; padding-left: 2.95rem; }
+.ConsigneeInfo .Address { height: 2rem; font-size: 0.7rem; line-height: 1rem; overflow: hidden; margin: 0.25rem 0; padding-right: 1.4rem; }
+.ConsigneeInfo .icon-rightdot { position: absolute; right: 0.5rem; top: 50%; width: 0.575rem; height: 0.575rem; font-size: 0.575rem; color: #595757; margin-top: -0.375rem; }
+/*以下区分有无促销活动图标*/
+.ConfirmationOrder .ShopGoods .Tit .ShopName { padding: 0; }
+.ConfirmationOrder .ShopGoods .ProList li .Con { width: 11rem; }
+.ConfirmationOrder .ShopGoods .ProList li .PromotionIden { display: none; }
+.ConfirmationOrder .ShopGoods .ProList li.sale .Con { width: 9.6rem; }
+.ConfirmationOrder .ShopGoods .ProList li.sale .PromotionIden { display: block; float: left; width: 1.4rem; padding-left: 0.5rem; }
+.ConfirmationOrder .ShopGoods .ProList li.sale .PromotionIden i { display: block; width: 0.9rem; height: 0.9rem; line-height: 0.9rem; font-size: 0.6rem; color: #fff; text-align: center; background: #f39800; border-radius: 0.125rem; }
+/*订单其它信息*/
+.ConfirmationOrder .OtherInfo { padding: 0 0.5rem; }
+.ConfirmationOrder .OtherInfo li { position: relative; height: 2.4rem; border-bottom: #dcdddd solid 1px; }
+.ConfirmationOrder .OtherInfo li .icon-rightdot2 { position: absolute; right: 0; top: 0; width: 0.625rem; line-height: 2.375rem; font-size: 0.575rem; text-align: center; color: #595757; }
+.ConfirmationOrder .OtherInfo li .tit { float: left; width: 3.65rem; font-size: 0.6rem; color: #595757; line-height: 2.375rem; }
+.ConfirmationOrder .OtherInfo li .QuantityControl { float: right; }
+.ConfirmationOrder .OtherInfo li .QuantityControl .icon-jian { float: left; width: 1.4rem; height: 1.175rem; line-height: 1.175rem; font-size: 0.425rem; color: #969696; background: #f5f5f5; }
+.ConfirmationOrder .OtherInfo li .QuantityControl .num { float: left; width: 1.55rem; height: 1.175rem; line-height: 1.175rem; font-size: 0.6rem; color: #595757; }
+.ConfirmationOrder .OtherInfo li .QuantityControl .icon-jia { float: left; width: 1.4rem; height: 1.175rem; line-height: 1.175rem; font-size: 0.425rem; color: #969696; background: #f5f5f5; }
+.ConfirmationOrder .OtherInfo li .QuantityControl .no { color: #c6c6c6; }
+.ConfirmationOrder .OtherInfo li .freight { float: right; font-size: 0.6rem; color: #595757; line-height: 2.375rem; padding-right: 1.25rem; }
+.ConfirmationOrder .OtherInfo li .LeaveMessage { float: right; width: 11.35rem; }
+.ConfirmationOrder .OtherInfo li .LeaveMessage input { width: 100%; height: 2.325rem; font-size: 0.6rem; color: #595757; border: 0; }
+.ConfirmationOrder .OtherInfo li.Total { height: 3.1rem; line-height: 3.1rem; font-size: 0.6rem; color: #595757; }
+/*------------------------------------活动详情------------------------------------*/
+.ActivityDetails .HeadFigure img { width: 100%; height: auto; vertical-align: bottom; }
+.ActivityCountdown { position: relative; height: 3.25rem; background: #fff; }
+.ActivityCountdown h2 { height: 1.5rem; line-height: 1.5rem; font-size: 0.6rem; font-weight: 400; text-align: center; color: #b5b5b6; }
+.ActivityCountdown .Countdown { margin-top: 1px; text-align: center; }
+.ActivityCountdown .Countdown #Countdown { display: inline-block; line-height: 1.3rem; }
+.ActivityCountdown .Countdown .mr7 { margin-right: 0.175rem; }
+.ActivityCountdown .Countdown .num { display: inline-block; width: 0.8rem; height: 1.3rem; font-size: 0.75rem; color: #fff; background: #000000; border-radius: 0.125rem; }
+.ActivityCountdown .Countdown .text { width: 0.925rem; font-size: 0.6rem; color: #b5b5b6; }
+.ActivityCountdown .icon-sjleft { position: absolute; left: 0.75rem; top: 0.75rem; width: 3.75rem; height: 1.5rem; line-height: 1.5rem; font-size: 3.75rem; color: #b7b8b8; }
+.ActivityCountdown .icon-sjright { position: absolute; right: 0.75rem; top: 0.75rem; width: 3.75rem; height: 1.5rem; line-height: 1.5rem; font-size: 3.75rem; color: #b7b8b8; }
+/*------------------------------------商品收藏------------------------------------*/
+.CollectingGoods { padding-top: 2.2rem; }
+.CollectingGoods .ShopGoods .ProList li { position:relative; background: none; border-bottom: #dcdddd solid 1px; }
+.CollectingGoods .ShopGoods .ProList li .Con { width: 11rem; }
+.CollectingGoods .ShopGoods .ProList li .State { height: 1.5rem; padding-top: 0.125rem; }
+.CollectingGoods .ShopGoods .ProList li .State span { display: inline-block; width: 1.75rem; height: 0.875rem; line-height: 0.95rem; font-size: 0.55rem; color: #fff; text-align: center; border-radius: 0.125rem; background: #b5b5b6; overflow: hidden; }
+.CollectingGoods .ShopGoods .ProList li .State span.disn { display: none; }
+.CollectingGoods .ShopGoods .ProList li .PriceQuantity { font-size: 0.65rem; }
+.CollectingGoods .Tabs2 li { width: 50%; }
+.CollectingGoods .ShopGoods .ProList li .icon-del4{ position:absolute; right:0.5rem; bottom:0.5rem; font-size:0.95rem; color:#f84e37;}
+/*------------------------------------关注店铺------------------------------------*/
+.AttentionShop li { position: relative; border-bottom: #dcdddd solid 1px; padding: 0 0.5rem; overflow: hidden; }
+.AttentionShop li .leftcon { float: left; width: 3.125rem; text-align: center; padding-top: 0.85rem; }
+.AttentionShop li .leftcon .photo { width: 3.125rem; height: 3.125rem; border-radius: 50%; overflow: hidden; border: #fff solid 3px; }
+.AttentionShop li .leftcon .photo img { width: 100%; vertical-align: bottom }
+.AttentionShop li .leftcon i { height: 1.85rem; line-height: 1.85rem; font-size: 3rem; color: #39dda5; }
+.AttentionShop li .follow { position: absolute; right: 0.5rem; top: 0.5rem; }
+.AttentionShop li .rightcon { float: right; width: 10.5rem; }
+.AttentionShop li .rightcon h2 { width: 6.775rem; height: 1.575rem; line-height: 1.575rem; font-size: 0.65rem; color: #595757; overflow: hidden; }
+.AttentionShop li .rightcon .ShopSfy2 { float: left; }
+.AttentionShop li .rightcon .ShopSfy2 i { float: left; height: 0.875rem; line-height: 0.875rem; font-size: 0.75rem; color: #e60012; margin-right: 0.25rem; }
+.AttentionShop li .rightcon .con { float: left; width: 10.5rem; margin: 0.575rem 0 0.5rem 0; overflow: hidden; }
+.AttentionShop li .rightcon .con dl { width: 15rem; }
+.AttentionShop li .rightcon .con dd { float: left; width: 3rem; height: 3rem; margin-right: 0.7rem; }
+.AttentionShop li .rightcon .con dd img { width: 3rem; height: 3rem; vertical-align: bottom; }
+.ViewLogistics .head { height: 4.95rem; background: #fd6847; padding: 1.15rem 0.5rem; }
+.ViewLogistics .LogisticsLogo { float: left; width: 2.5rem; height: 2.5rem; margin-right: 1.125rem; }
+.ViewLogistics .LogisticsLogo img { width: 100%; vertical-align: bottom; }
+.ViewLogistics .text { float: left; color: #ffffff; line-height: 1.125rem; padding-top: 0.175rem; }
+.ViewLogistics .list { position: relative; padding: 0 0.5rem 0 2.25rem; }
+.ViewLogistics .list li { position: relative; padding: 0.5rem 0 0.5rem 0; border-bottom: #dcdddd solid 1px; }
+.ViewLogistics .list li:after { position: absolute; left: -1.325rem; top: 0.825rem; width: 0.4rem; height: 0.4rem; content: ''; border-radius: 50%; background: #f1f1f2; }
+.ViewLogistics .list li .text1 { height: 1.15rem; line-height: 1.15rem; font-size: 0.6rem; color: #b5b5b6; }
+.ViewLogistics .list li .text2 { line-height: 0.9rem; font-size: 0.7rem; }
+.ViewLogistics .list .LeftIndex { position: absolute; left: 0; top: 0; width: 2.25rem; height: 100%; background: #fff; }
+.ViewLogistics .list .LeftIndex:after { position: absolute; left: 50%; top: 0; width: 2px; height: 100%; content: ''; background: #f1f1f2; margin-left: -1px; }
+/*------------------------------------设置个性域名------------------------------------*/
+.SetDomainName{ padding:0.5rem;}
+.SetDomainName .text1{ height:1.5rem; line-height:1.5rem;}
+.SetDomainName .text1 .iconfont{ float:left; width:0.8rem; height:0.8rem; font-size:0.8rem; margin-right:0.25rem;}
+.SetDomainName .EnterURL{ width:15rem;}
+.SetDomainName .EnterURL span{ float:right; width:4.5rem; height:2.2rem; line-height:2.2rem; font-size:0.75rem; color:#595757; text-align:right;}
+.SetDomainName .EnterURL .inp{ float:left; width:10.5rem; height:2.2rem; font-size:0.75rem; color:#595757; padding:0 0.25rem; border:0; border-radius:0.25rem;}
+/*------------------------------------联系电话------------------------------------*/
+.DefaultPhone{ height:2.3rem; line-height:2.3rem;}
+.DefaultPhone .icon-telephone{ width:0.8rem; height:0.8rem; font-size:0.8rem; color:#595757;}
+.ContactNumber .tips{ padding:0 0.5rem; font-size:0.6rem; color:#898989; line-height:0.825rem;}
+/*------------------------------------店铺列表------------------------------------*/
+.ShopList li.blist{ border-bottom:#dcdddd solid 1px; background:#f8f8f8; overflow:hidden; margin-bottom:0.375rem; padding-bottom:0.45rem;}
+.ShopList li.blist .StoreInfo{ height:3.3rem; padding:0 0.5rem;}
+.ShopList li.blist .StoreInfo .photo{ float:left; width:2.5rem; height:2.5rem; border:#fff solid 3px; border-radius:50%; margin:0.375rem 0.5rem 0 0;}
+.ShopList li.blist .StoreInfo .photo img{ width:100%; vertical-align:bottom; border-radius:50%;}
+.ShopList li.blist .StoreInfo .con{ float:left; width:8.475rem; padding:0.25rem 0 0 0;}
+.ShopList li.blist .StoreInfo .con h2{ width:8.675rem; height:0.85rem; line-height:0.85rem; font-size:0.65rem; color:#595757; overflow:hidden; font-weight:400;}
+.ShopList li.blist .StoreInfo .con i{ float:left; line-height:1.1rem;}
+
+.ShopList li.blist .StoreInfo .con .icon-flagshipstore{ font-size:2.575rem; color:#71a8ac; margin-right:0.575rem}
+.ShopList li.blist .StoreInfo .con .icon-heart{ font-size:0.55rem; color:#e60012; margin-right:0.2rem}
+.ShopList li.blist .StoreInfo .con p{ float:left; width:8.475rem; height:0.75rem; line-height:0.75rem; font-size:0.5rem; color:#87888a;}
+.ShopList li.blist .StoreInfo .rightcon{ float:right; width:3.525rem; padding-top:0.925rem;}
+.ShopList li.blist .StoreInfo .rightcon a,.ShopList li.blist .StoreInfo .rightcon a:visited{ display:block; width:3.525rem; height:1.45rem; line-height:1.4rem; border:#fd7f62 solid 1px; font-size:0.55rem; color:#eb4f38; text-align:center; border-radius:1rem;}
+
+.ShopList li .ProLists{ height:4.55rem; overflow:hidden;}
+.ShopList li .ProLists div{ height:5rem; overflow-y:hidden; overflow-x:auto;}
+.ShopList li .ProLists div ul{ width:50rem;}
+.ShopList li .ProLists li{ position:relative; float:left; width:4.55rem; height:4.55rem; margin:0 0 0 0.5rem; border:#dcdddd solid 1px;}
+.ShopList li .ProLists li img{ width:100%; vertical-align:bottom;}
+.ShopList li .ProLists li .Price{ position:absolute; right:0; bottom:0; height:0.7rem; line-height:0.75rem; font-size:0.5rem; color:#fff; padding:0 0.5rem; background:#b1b3b4; border-radius:0.7rem 0 0 0;}
+/*------------------------------------回到顶部------------------------------------*/
+#scrollUp { width: 2rem; height: 2rem; background: rgba(0,0,0,.8); bottom: 4rem; right: .5rem; border-radius: 1rem; color: #c6c6c6; font-size: .6rem; text-align: center; }
+#scrollUp:before { content: ''; display: block; margin: .3rem auto .1rem; width: 0; height: 0; border-bottom: .5rem solid #c6c6c6; border-left: .3rem solid transparent; border-right: .3rem solid transparent; }
+/*------------------------------------右侧导航------------------------------------*/
+.rightnav { position: fixed; right: 0; bottom: 13%; width: 2rem; }
+.rightnav li { float: left; width: 2rem; height: 2rem; line-height: 2rem; text-align: center; color: rgba(255,255,255,.6); border-radius: 0.125rem 0 0 0.125rem; background: rgba(0,0,0,.6); margin-top: 0.5rem; }
+.rightnav li .iconfont { font-size: 1.4rem; }

@@ -1,0 +1,48 @@
+li {list-style: none;}
+.PopBg { position: fixed; left: 0; top: 0; width: 100%; height: 100%; background: rgba(0,0,0,.6); z-index: 90; }
+
+.AttributeSelectionPop { position: fixed;  width: 90%; background: #fff; z-index: 99; padding:20px; }
+
+.AttributeSelectionPop .BasicInfo { position: relative; width: 100%; height: 4.45rem; border-bottom: #ddddde solid 1px; padding: 0 0 0 2rem; }
+
+.AttributeSelectionPop .BasicInfo .icon-close { position: absolute; right: 0.5rem; top: 0.575rem; width: 1.05rem; height: 1.05rem; font-size: 1.05rem; color: #898989; }
+
+.AttributeSelectionPop .BasicInfo .pic { position: absolute; left: 0.5rem; top: -0.5rem; width: 4.425rem; height: 4.425rem; border: #dcdddd solid 1px; border-radius: 0.25rem; overflow: hidden; z-index: 100; }
+
+.AttributeSelectionPop .BasicInfo .pic img { width: 4.375rem; height: 4.375rem; border-radius: 0.25rem; vertical-align: bottom; }
+
+.AttributeSelectionPop .BasicInfo .Price { height: 1.45rem; line-height: 1.45rem;  color: #f84e37; margin: 0.5rem 0 3px 0; }
+
+.AttributeSelectionPop .BasicInfo .Stock { height: 1.05rem; line-height: 1.05rem; color: #595757; }
+
+.AttributeSelectionPop .BasicInfo .SelectedAttributes { height: 0.825rem; line-height: 0.825rem; font-size: 0.55rem; padding-right: 0.5rem; color: #595757; }
+
+.AttributeSelectionPop .BasicInfo .Stock span, .AttributeSelectionPop .BasicInfo .SelectedAttributes span { color: #898989; }
+
+.AttributeSelectionPop .AttributeList { padding: 0 0.5rem; }
+
+.AttributeSelectionPop .AttributeList h3 { line-height: 1.65rem; font-size: 0.6rem; color: #595757; }
+
+.AttributeSelectionPop .AttributeList ul { padding-bottom: 0.25rem; overflow: hidden; border-bottom: #ddddde solid 1px; }
+
+.AttributeSelectionPop .AttributeList li { float: left;   color: #898989; padding: 0 0.5rem; margin: 0 0.5rem 0.5rem 0; background: #efefef; border-radius: 0.25rem; }
+
+.AttributeSelectionPop .AttributeList li.on { color: #fff; background: #fd6847; }
+
+.AttributeSelectionPop .Number { height: 50px; padding: 0 0.5rem; }
+
+.AttributeSelectionPop .Number h3 { float: left; height: 2.5rem; line-height: 2.5rem; font-size: 0.6rem; color: #595757; }
+
+.AttributeSelectionPop .Number .Purchase { float: left; width: 8.45rem; height: 2.5rem; line-height: 2.5rem; padding-right: 0.875rem; color: #b5b5b6; text-align: right; }
+
+.AttributeSelectionPop .Number .QuantityControl { float: right; width: 5.3rem; }
+
+.AttributeSelectionPop .Number .QuantityControl .iconfont { height: 2.5rem; line-height: 2.5rem; font-size: 1.125rem; color: #595757; background: #fff; border: 0; }
+
+.AttributeSelectionPop .Number .QuantityControl .no { color: #d3d2d2; }
+
+.AttributeSelectionPop .Number .QuantityControl .num { width: 3rem; font-size: 0.85rem; color: #595757; text-align: center; height: 2.5rem; line-height: 2.5rem; }
+
+.AttributeSelectionPop .OperationButton button { width: 50%; height: 2.45rem; line-height: 2.45rem; font-size: 0.75rem; font-weight: 700; color: #fff; border: 0; text-align: center; }
+.goods_guanbi{}
+#xiangqing img { max-width: 100%; width: auto; height: auto; vertical-align: bottom; }

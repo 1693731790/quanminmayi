@@ -1,0 +1,58 @@
+body{
+    padding:0;
+    margin:0;
+}
+header{
+    background: #fc3b3e;
+    width: 100%;
+    height: 2.1rem;
+    line-height: 2.1rem;
+    color: #9e9e9e;
+    text-align: center;
+    font-size: 0.9rem;
+    color: #333333;
+    color: white;
+}
+header ._lefte{
+    display: block;
+    position: absolute;
+    height:21px;
+    width: 12px;
+    background-size: 100%;
+    left: 0.6rem;
+    color:#ffffff;
+}
+.center{
+       width: 100%;
+    height: 4rem;
+}
+.centerone{
+      width: 80%;
+    height: 3rem;
+    float: left;
+    color: #4e4e4e;
+    font-size: 0.7rem;
+    margin-top: 0.9rem;
+    margin-left: 0.4rem;
+}
+.centerones{
+   color: #a0a0a0;
+    font-size: 0.4rem;
+    margin-left: 0.4rem;
+}
+.centertwo{
+  width: 11%;
+    height: 1rem;
+    float: right;
+    color: #696969;
+    margin-top: 1.8rem;
+}
+.centerthree{
+    width:100%;
+    margin-top:0.3rem;
+    font-size: 0.6rem;
+}
+.centertwos{
+     width: 0.9rem;
+    height: 1.0rem;
+}

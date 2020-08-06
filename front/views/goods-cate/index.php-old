@@ -1,0 +1,115 @@
+<?php
+use yii\helpers\Html;
+use yii\helpers\Url;
+use yii\widgets\LinkPager;
+$this->title ="商品分类";
+?>
+<script src="/static/js/iscroll.js"></script>
+<script type="text/javascript">
+var myScroll;
+function loaded () {
+  myScroll = new IScroll('#wrapper', { mouseWheel: true, click: true });
+  myScroll2 = new IScroll('#wrapper2',{ mouseWheel: true, click: true });
+}
+function preventDefault(e) { e.preventDefault(); };  
+  
+document.addEventListener('touchmove', preventDefault, false);  
+document.removeEventListener('touchmove', preventDefault, false);  
+
+</script>
+
+<style>
+html, body { height: 100%; overflow: hidden; }
+  
+.Classification .LargeClassification li.on a {color: #f84e37;}
+  .Classification .SmallClassBox{overflow: auto}
+  .Classification .LargeClassificationBox{overflow: auto}
+header .SearchBox2 {width: 15.625rem;}
+</style>
+
+<header class="gd lt0 wauto">
+  <div class="SearchBox SearchBox2 fl"> 
+    
+    <!--搜索类型切换（商品与店铺）Start-->
+    <div class="fl xd">
+      <div class="SearchType" id="SearchType" onClick="SearchType('#TypePop')"><span>商品</span><i class="iconfont icon-downdot"></i></div>
+      <div class="TypePop disn" id="TypePop">
+        <ul>
+              <li onclick="searchType(1)"><i class="iconfont icon-home" ></i>商品</li>
+              <li onclick="searchType(2)"><i class="iconfont icon-shop" ></i>店铺</li>
+              <input type="hidden" id="searchType" value="1">
+            </ul>
+          </div>
+        </div>
+        <!--搜索类型切换（商品与店铺）End-->
+        <input class="InputBor" placeholder="搜索您想要的商品" name="" id="searchKey" value="" type="text">
+        <i class="iconfont icon-search" id="searchSub"></i> </div>
+    <script type="text/javascript">
+      function searchType(type)
+      {
+          $("#searchType").val(type);
+      }
+      $(function(){
+        $("#searchSub").click(function(){
+            var type=$("#searchType").val();
+            
+            var key=$("#searchKey").val();
+
+            if(key=="")
+            {
+                layer.msg("请输入要搜索的内容");
+                return false;
+            }
+            if(type==1)
+            {
+                var url="<?=Url::to(['search/goods'])?>";
+                window.location.href=url+"?searchKey="+key;
+            }else{
+                var url="<?=Url::to(['search/shops'])?>";
+                window.location.href=url+"?searchKey="+key;
+            }
+            
+        })
+    })
+    </script> 
+</header>
+<div class="Classification hauto">
+  <div class="LargeClassificationBox fl" id="wrapper">
+    <div class="LargeClassification fl" id="scroller">
+      <ul>
+
+        <li  <?=$cate_id==""?'class="on"':''?> > <a href="<?=Url::to(["goods-cate/index"])?>">推荐分类 </a></li>
+      <?php foreach($cate1 as $cate1val):?>
+        <li style="overflow: hidden;" <?=$cate_id==$cate1val['goods_cat_id']?'class="on"':''?> > <a href="<?=Url::to(["goods-cate/index",'cate_id'=>$cate1val['goods_cat_id']])?>"><?=$cate1val['goods_cat_name']?> </a></li>
+      <?php endforeach;?>
+      </ul>
+    </div>
+  </div>
+  <div class="SmallClassBox fr mr20" id="wrapper2">
+    <div class="SmallClass" id="scroller">
+      <div class="ads"><img src="<?=$thiscate!=""?Yii::$app->params['imgurl'].$thiscate['thumb']:"/static/images/ads3.png"?>" alt=""/></div>
+    <?php foreach($cate2 as $cate2val):?>
+      <div class="tit">
+        <h2><?=isset($cate2val['goods_cat_name'])?$cate2val['goods_cat_name']:""?></h2>
+      </div>
+      <div class="con hidden">
+        <ul>
+
+        <?php foreach($cate2val['cate3'] as $cate3val):?>
+          <li>
+            <a href="<?=Url::to(["goods/index","goods_cate_id"=>$cate3val['goods_cat_id']])?>">
+              <div class="pic"><img src="<?=Yii::$app->params['imgurl'].$cate3val['thumb']?>" alt=""/></div>
+              <p class="name"><?=$cate3val['goods_cat_name']?></p>
+            </a>
+          </li>
+        <?php endforeach;?>
+          
+        </ul>
+      </div>
+    <?php endforeach;?>
+
+    </div>
+  </div>
+</div>
+
+<!--底部导航Start-->

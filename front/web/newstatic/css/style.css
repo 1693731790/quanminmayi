@@ -1,0 +1,349 @@
+body{
+    background:#fff9eb;
+}
+header{
+    width: 100%;
+    height: 1.6rem;
+    line-height: 1.6rem;
+    background: #f84e37;
+    text-align: center;
+    font-size: 0.9rem;
+    color: white;
+}
+header ._lefte{
+    display: block;
+    position: absolute;
+    height:21px;
+    width: 12px;
+    background-size: 100%;
+    left: 0.6rem;
+    color:white;
+    top:0.15rem;
+}
+.header-img{
+   width:100%;
+   height:100%;
+}
+.moda{
+    width:96%;
+    height:86rem;
+    background:#fff9eb;
+    position: absolute;
+    top: 14rem;
+}
+.index-banner{
+     position:relative;
+}
+.nava{
+     position:relative;
+    width:96%;
+    height:2.2rem;
+    background:url(../img/pia.jpg) no-repeat;
+    background-size:100%; 
+}
+.navt{
+    float: right;
+    color: #33333387;
+    font-size: 13px;
+    width: 96%;
+    height: 1.4rem;
+    position: absolute;
+    top: 1.5rem;
+    padding: 0.4rem;
+    }
+.navf{
+   float:left;
+    width:1%;
+    height:0.7rem;
+    background:#fb383e;
+   /*  border-radius:30%; */
+}
+.btnn{
+    width: 10.9rem;
+    height: 1.2rem;
+    background: #e02a1c;
+    color: white;
+    border-radius: 30px;
+    background: url(../img/an.png) no-repeat;
+    background-size: 100%;
+    border: none;
+    padding: 0.2rem;
+    position: absolute;
+    top: 26rem;
+    left: 2rem;
+    text-align: center;
+    line-height:24px;
+}
+.index-banner,.banner-inner{width:100%;height:400px;overflow:hidden}
+.banner-inner li,.banner-inner li a{width:100%;height:100%;display:inline-block}
+.banner-inner li{background: #aac7f3;}
+.banner-inner li.first{background:url(../img/ban01.jpg) center no-repeat;}
+.banner-inner li.second{background:url(../img/ban02.jpg) center no-repeat;}
+.banner-inner li.third{background:url(../img/ban03.jpg) center no-repeat;}
+
+.edslider{position:relative;margin:auto;background:#aac7f3;height: 100%;}
+.edslider ul{list-style:none;position:relative;padding:0;margin:0}
+.edslider>ul{background:#aac7f3;width:100%;height:100%;display:block;overflow:hidden;text-align:center;}
+.edslider>ul:after{
+    content:"中厚明德";
+    color:#fff;
+    font-size:100px;
+    line-height:400px;
+    letter-spacing:20px;
+    filter: alpha(opacity=10);
+    -moz-opacity: 0.1;
+    opacity: 0.1;
+}
+.titlet{
+    width: 25%;
+    color:#9e9e9e;
+    font-size: 14px;
+   margin-left: 0.1rem;
+    padding: 0.1rem 0 0 0;
+} 
+.titleq{
+    width: 58%;
+    font-size: 16px;
+    position: absolute;
+    left:1.3rem;
+    top:10.5rem;
+    overflow: hidden;
+    white-space: nowrap;  
+    text-overflow: ellipsis; 
+    padding: 0.1rem 0 0 0;
+    font-size: 13px;
+     margin: 0 auto;
+    text-align: left;  
+    font-size: 20px;
+}
+.price{
+    font-size:20px;
+    color:#ff0000d6;
+     padding: 0.2rem 0 0 0;
+ }
+ .navq{
+    width:98%;
+    height:17rem;
+    position: absolute;
+    top:3.5rem;
+    margin-left:0.2rem;
+ }
+ .navw{
+    float:left;
+    width:45%;
+    height:10.2rem;
+    padding: 0.2rem 0.2rem 0.3rem 0.5rem;
+    background:url(../img/pic.jpg) no-repeat;
+    background-size:100%; 
+ }
+ .nave{
+    float:right;
+    width:45%;
+    height:5.7rem;
+    padding:0.2rem;
+    padding: 0.2rem 0.2rem 0.3rem 0.5rem;
+ }
+ .navr{
+    float:right;
+    width:44%;
+    height:9.1rem;
+    padding:0.2rem;
+    background:blue;
+    padding: 0.2rem 0.2rem 0.3rem 0.5rem;
+    margin-top: 0.3rem;
+    background:url(../img/pib.jpg) no-repeat;
+    background-size:100%; 
+ }
+ .navy{
+    float:left;
+    width:45%;
+    height:5.2rem;
+    padding:0.2rem;
+    background:black;
+    padding: 0.2rem 0.2rem 0.3rem 0.5rem;
+    margin-top: 0.3rem;
+    background:url(../img/pid.jpg) no-repeat;
+    background-size:100%; 
+ }
+ .titlem{
+    color:#333333;
+    width: 90%;
+    font-size: 18px;
+    margin-left: 0.1rem;
+    padding: 0.1rem 0 0 0;
+} 
+.titlen{
+    width: 100%;
+    font-size: 17px;
+    padding: 0.1rem 0 0 0;
+    margin: 0 auto;
+    text-align: left;  
+    margin-top: 0.4rem;
+}
+.pricee{
+    font-size:12px;
+    color:#666;
+    padding: 0.2rem 0 0 0;
+    margin-top: 0.4rem;
+ }
+ .mot{
+   width:100%;
+    height:7rem;
+    background:red;
+     position: absolute;
+    top:20.5rem; 
+     background:url(../img/pim.jpg) no-repeat;
+   background-size:100%; 
+ }
+.titlez{
+    font:14px;
+    width: 60%;
+    position: absolute;
+    top: 0.8rem;
+    left: 4rem;
+    color: #666;
+    margin: 0 auto;
+    text-align: left;
+
+}
+p {
+    display: block;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-size:11px;
+    width:100%;
+    margin-left:1.5rem;
+    padding:0.1rem 0 0 0;
+}
+.mota{
+    width:98%;
+    height:17rem;
+    background:red;
+     position: absolute;
+    top:27.5rem; 
+     background:url(../img/picc.jpg) no-repeat; 
+   background-size:100%; 
+}
+.motb{
+    width:98%;
+    height:17rem;
+    background:red;
+     position: absolute;
+    top:45.5rem; 
+     background:url(../img/picb.jpg) no-repeat; 
+   background-size:100%; 
+}
+.haha{
+    color:#666;
+    font-size: 13px;
+    text-decoration:line-through;
+}
+.motc{
+    width:99%;
+    height:21rem;
+    position: absolute;
+    top:64.5rem; 
+    background:url(../img/pimn.jpg) no-repeat; 
+    background-size:100% 100%; 
+}
+.titlezz{
+    font:14px;
+    width:80%;
+    height:17rem;
+    position: absolute;
+    top:2.9rem;
+    left: 1rem;
+    color:white;
+    margin: 0 auto;
+    text-align: left;
+
+}
+.dan{
+    display: block;
+    width: 78%;
+    height: 0.8rem;
+    background: #9d000033;
+    padding: 0.1rem 0.1rem 0.1rem 0.5rem;
+}
+.db{
+    display: block;
+    width: 78%;
+    height: 0.8rem;
+    padding: 0.1rem 0.1rem 0.1rem 0.5rem;
+}
+
+.edslider>ul li{background:#aac7f3;display:none;width:100%;height:200px;position:absolute;top:0;left:0;z-index:0}
+.edslider a{display:block;position:absolute;top:0;left:0;z-index:0}
+.edslider a img{border:0}
+.edslider .current{z-index:1!important}
+.edslider .controls{
+    width:100%;height:100%;
+    position: absolute;
+    top:0;
+    }
+.edslider .controls .navigator{background:rgba(0,0,0,.3);background-image:url(../img/sprite-navigator.png);cursor:pointer;display:block;
+    width:50px;height:50px;position:absolute;overflow:hidden;
+    top:50%;margin-top:-25px;transition:background .2s}
+.edslider .controls .next{background-position:0 0;right:0;z-index: 2;}
+.edslider .controls .prev{background-position:0 -50px;left:0;z-index: 2;}
+.edslider .controls .next:hover,.edslider .controls .prev:hover{
+    background-color:rgba(0,0,0,.6)}
+.edslider .controls .paginator{ position: absolute;
+    text-align: center;
+    bottom:0rem;
+    width: 100%;
+z-index: 2;}
+.edslider .controls .paginator li{background:rgba(255,255,255,.6);
+    box-sizing:border-box;display:inline-block;
+    margin:0 3px;
+    width:7px;
+    height:7px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+    background-position:-14px 0;cursor:pointer;
+    transition:background .1s;background-position:-213px 0}
+.edslider .controls .paginator li.current,.edslider .controls .paginator li:hover{
+    background:#fff;
+    width:30px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    border-radius: 4px;
+}
+.edslider .progress{background:rgba(91,152,247,.5)}
+.edslider .progress{position:absolute;top:0;height:3px;z-index:2}
+
+@media screen and (max-width:1024px){
+    .index-banner, .banner-inner{height: 20rem;}
+    .edslider>ul:after{line-height: 20rem;}
+    .edslider .controls .navigator{width: 2.8rem;height: 2.8rem;}
+    .edslider .controls .paginator{bottom: 0.2rem;}
+    .edslider .controls .next{background-position: 0 -3px;}
+    .edslider .controls .prev {
+    background-position: 0 -52px;}
+}
+@media screen and (max-width:766px){
+    .index-banner, .banner-inner{
+        height: 16rem;
+    }
+    .edslider>ul:after{line-height: 16rem;}
+}
+@media screen and (max-width:560px){
+    .edslider>ul:after{line-height: 12rem;}
+    .edslider .controls .navigator{background-size: 88%;}
+    .edslider .controls .navigator{width: 2.4rem;height: 2.4rem;}
+    .edslider .controls .paginator{bottom: 0rem;}
+    .edslider .controls .next{background-position: 2px 2px;}
+    .edslider .controls .prev {background-position: 2px -31px;}
+
+}
+@media screen and (max-width:414px){
+    .index-banner, .banner-inner{height: 8rem;}
+    .edslider>ul:after{line-height: 11rem;}}
+

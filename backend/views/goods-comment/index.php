@@ -1,0 +1,43 @@
+<?php
+
+use yii\helpers\Html;
+use yii\grid\GridView;
+
+/* @var $this yii\web\View */
+/* @var $searchModel common\models\GoodsCommentSearch */
+/* @var $dataProvider yii\data\ActiveDataProvider */
+
+$this->title = 'Goods Comments';
+$this->params['breadcrumbs'][] = $this->title;
+?>
+<div class="goods-comment-index">
+
+    <h1><?= Html::encode($this->title) ?></h1>
+    <?php // echo $this->render('_search', ['model' => $searchModel]); ?>
+
+    <p>
+        <?= Html::a('Create Goods Comment', ['create'], ['class' => 'btn btn-success']) ?>
+    </p>
+    <?= GridView::widget([
+        'dataProvider' => $dataProvider,
+        'filterModel' => $searchModel,
+        'columns' => [
+            ['class' => 'yii\grid\SerialColumn'],
+
+            'cid',
+            'goods_id',
+            'order_id',
+            'user_id',
+            'type',
+            // 'goods_score',
+            // 'service_score',
+            // 'time_score:datetime',
+            // 'content:ntext',
+            // 'images',
+            // 'ishide',
+            // 'create_time:datetime',
+
+            ['class' => 'yii\grid\ActionColumn'],
+        ],
+    ]); ?>
+</div>

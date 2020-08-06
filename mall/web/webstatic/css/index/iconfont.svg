@@ -1,0 +1,29 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+<!--
+2013-9-30: Created.
+-->
+<svg>
+<metadata>
+Created by iconfont
+</metadata>
+<defs>
+
+<font id="iconfont" horiz-adv-x="1024" >
+  <font-face
+    font-family="iconfont"
+    font-weight="500"
+    font-stretch="normal"
+    units-per-em="1024"
+    ascent="896"
+    descent="-128"
+  />
+    <missing-glyph />
+    
+    <glyph glyph-name="bianji" unicode="&#58937;" d="M754.688 646.656L443.904 332.8l56.832-56.832L814.08 588.8z m-367.616-427.52h84.992l-84.992 84.992z m85.504-56.832H330.24v141.824L716.8 686.592a55.808 55.808 0 0 0 78.848 0l59.392-59.392a55.808 55.808 0 0 0 0-79.36z m341.504-142.336H244.736A56.832 56.832 0 0 0 187.904 76.8V645.632a56.832 56.832 0 0 0 56.832 56.832h364.544l-57.344-56.832h-307.2V76.8h568.832v307.2L870.4 440.832V76.8a56.832 56.832 0 0 0-56.832-56.832z"  horiz-adv-x="1024" />
+
+    
+
+
+  </font>
+</defs></svg>

@@ -1,0 +1,201 @@
+body{
+   background:url(../images/pia_add.png) no-repeat;
+   background-size:100%; 
+}
+header{
+    width: 100%;
+    height: 1.6rem;
+    line-height: 1.6rem;
+    background: #f84e3700;
+    color: #9e9e9e;
+    text-align: center;
+    font-size: 0.9rem;
+    color: #333333;
+    color: white;
+    z-index: 9999;
+    position: absolute;
+    top: 1%;
+}
+header ._lefte{
+    display: block;
+    position: absolute;
+    height:21px;
+    width: 12px;
+    background-size: 100%;
+    left: 0.6rem;
+    color:white;
+}
+.hearder-img{
+   width:100%;
+   height:100%;
+}
+.top {
+  margin-left:65%;
+  overflow: hidden;
+}
+.top .out-1 {
+  width: 8rem;
+  margin-top:157%;
+  border-radius: 100%;
+  -webkit-border-radius: 100%;
+  background: rgba(255, 255, 255, 0.4);
+}
+.top .out-1 .out-2 {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    background: #ff0000;
+    margin: 0 auto;
+}
+.money{
+  color:red;
+}
+.top .out-1 .out-2 .signBtn {
+  width: 5.2rem;
+  height: 6.2rem;
+  border-radius: 100%;
+  -webkit-border-radius: 100%;
+}
+.top .out-1 .out-2 .signBtn strong,
+.top .out-1 .out-2 .signBtn span {
+  display: block;
+  width: 85%;
+  margin: 0 auto;
+  text-align: center;
+  color: #f8f9fa;
+}
+.top .out-1 .out-2 .signBtn strong {
+  height: 3.5rem;
+  line-height: 5.5rem;
+  font-weight: 600;
+  border-bottom: 1px #eee solid;
+  font-size:0.8rem;
+}
+.top .out-1 .out-2 .signBtn span {
+  height: 2.5rem;
+  line-height: 2.5rem;
+  font-size: .9rem;
+  line-height: 2rem !important;
+  font-size:0.7rem;
+}
+.top .out-1:active {
+  animation: sign .25s forwards;
+  -webkit-animation: sign .25s forwards;
+}
+.tips {
+  position: absolute;
+    left: 0.7rem;
+    top: 14rem;
+    z-index: 888;
+    width: 25%;
+    color: #666;
+    font-size: 16px;
+}
+.Calendar {
+    width: 96%;
+    height: 12.5rem;
+    background: #fff;
+    padding-bottom: 0rem;
+    margin-top: -3%;
+    margin-left: 0.3rem;
+    border-radius: 4%;
+}
+.Calendar #toyear {
+  border-bottom: 1px #e7e7e7 solid;
+  width: 96%;
+  margin: 0 auto;
+  height: 2.2rem;
+  text-align: center;
+  color: #333;
+  font-size: .95rem;
+}
+.Calendar #toyear .year-month {
+  height: 100%;
+  line-height: 2.5rem;
+}
+.Calendar #toyear #idCalendarPre {
+  height: 100%;
+  line-height: 2.5rem;
+  text-align: center;
+  font-size: .85rem;
+  color: #999;
+}
+.Calendar #toyear #idCalendarNext{
+  height: 100%;
+  line-height: 2.5rem;
+  text-align: center;
+  font-size: .85rem;
+  color: #999;
+}
+.haha{
+  width:100%;
+  height:10rem;
+  background:red;
+}
+.Calendar table,
+.Calendar tr,
+.Calendar td {
+  border: 0;
+}
+.Calendar table {
+  width: 88%;
+    height: 5rem;
+    margin: 0 auto;
+}
+.Calendar table tr {
+  text-align: center;
+  height: 1.5rem;
+}
+.Calendar table tr td span {
+     margin: 0 auto;
+    display: block;
+    line-height: 1.2rem;
+    width: 1.2rem;
+    height: 1.2rem;
+    border-radius:50%;
+}
+.Calendar table tr .onToday span {
+    background: #fb383e;
+    color: #fff;
+}
+.model{
+  /* position:absolute;
+  display:none;
+  height:92%;
+  width:100%;
+  top:43%;
+  text-align:center;
+  margin-top:-15rem;
+  z-index:9999999999;
+  background:#0000007d; */
+    position: absolute;
+    display: none;
+    height: 100%;
+    width: 100%;
+    top: 0%;
+    text-align: center;
+    /* margin-top: -15rem; */
+    z-index: 9999999999;
+    background:rgba(0,0,0,0.8);
+}
+.close{
+  
+  height:30%;
+  width:100%;
+  text-align:center;
+}
+.pico{
+ height:30%;
+ width:78%;
+ margin-top:30%;
+} 
+.pict{
+  height:2rem;
+  width:2rem;
+}
+.btn{
+  height: 30%;
+  width: 61%;
+  margin-top: -30%;
+}

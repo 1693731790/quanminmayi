@@ -1,0 +1,490 @@
+body{
+	margin:0;
+	padding:0;
+}
+ul,li{ padding:0;margin:0;list-style:none}
+header{
+    width: 100%;
+    height: 1.6rem;
+    line-height: 1.6rem;
+    color: #9e9e9e;
+    text-align: center;
+    font-size: 0.9rem;
+    color: #333333;
+    color: white;
+    z-index: 9999;
+    position: absolute;
+    top: 1%;
+}
+header ._lefte{
+    display: block;
+    position: absolute;
+    height:21px;
+    width: 12px;
+    background-size: 100%;
+    left: 0.6rem;
+    color:white;
+}
+.beij{
+    position: absolute;
+    height: 0.9rem;
+    width: 21%;
+    float: left;
+    background: #f9dc02;
+    left: 12.6rem;
+    top: 2.2rem;
+    text-align: center;
+    font-size: 0.7rem;
+    line-height: 0.9rem;
+    color: #fc3b3e;
+    border-radius: 1.5rem 0 0 1.5rem;
+
+}
+.beiji{
+    width:100%;
+    height:9rem;
+    position:relative;
+}
+.pico{
+   width: 100%;
+    height:9rem;
+}
+.beijii{
+    width:100%;
+    height:14.5rem;
+    background: url(../images/lic_04.jpg) center no-repeat;
+    background-size:100% 100%;
+}
+.beijiione {
+   width: 84%;
+    height: 13.5rem;
+    background: white;
+    margin: 0 auto;
+    border-radius: 0.3rem;
+}
+.beijiion{
+    width: 98%;
+    height: 4rem;
+}
+.beijiitw{
+    width: 80%;
+    height: 3rem;
+    margin: 0 auto;
+    margin-top: 1rem;
+    text-align: center;
+    color: #333333;
+  font-size: 1rem;
+}
+.one{
+    width:22%;
+    height:4rem;
+    float:left;
+}
+.piq{
+    width: 2rem;
+    height: 2rem;
+    margin: 0.6rem;
+}
+.ones{
+   width: 103%;
+    text-align: center;
+    font-size: 0.5rem;
+    color: #666666;
+    margin-top: -0.5rem;
+    margin-left: 0.2rem;
+}
+.two{
+    width:22%;
+    height:4rem;
+    float:right;
+}
+.three{
+    width:16%;
+    height:4rem;
+     float:right;
+}
+.four{
+    width:23%;
+    height:4rem;
+     float:right;
+}
+.five{
+    width: 16%;
+    height: 4rem;
+    float: right;
+}
+.pio{
+    width: 2rem;
+    height: 1.5rem;
+    margin-top:37%;
+}
+.toppb {
+       width: 56%;
+    height: 1.1rem;
+    font-size: 0.7rem;
+    color: #333333;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 0.5rem;
+}
+.beijiifour{
+    width: 100%;
+    height: 2rem;
+    margin: 0 auto;
+    margin-top: 0.5rem;
+    text-align: center;
+    color: #9E9E9E;
+    font-size: 0.7rem;
+}
+.daojishi {
+    width:56%;
+    height: 1.2rem;
+    float:left;
+     font-size: 0.7rem;
+    color:#4e4e4e;
+}
+#timer {
+    width:44%;
+    height: 1.5rem;
+    color: black;
+    font-size: 0.7rem;
+     float:right;
+     color:#494949;
+}
+.beijiifive{
+    width:100%;
+    height:2rem;
+}
+.beijiifiveone{
+    width:40%;
+    height:1.3rem;
+    border-radius:1.9rem;
+    border:1px solid #fc5957;
+    float:left;
+    margin-left:3.9rem;
+    line-height:1.3rem;
+    background:#fc5957;
+    color:white;
+    font-size:0.7rem;
+    text-align:center;
+}
+.beijiifivetwo{
+    width:40%;
+    height:1.3rem;
+    border-radius:1.9rem;
+    border:1px solid #fc5957;
+    float:left;
+    margin-left:0.9rem;
+    line-height:1.3rem;
+    background:#fc5957;
+     color:white;
+     font-size:0.7rem;
+     text-align:center;
+}
+.last{
+     width: 100%;
+    height: 5rem;
+    background: #fc5957;
+}
+.toutu{
+   margin: 0 auto;
+    text-align: center;
+    font-size: 0.8rem;
+    position: relative;
+    width: auto;
+    height: 1.2rem;
+    max-width: 5rem;
+    background: #f7f7f700;
+    color: white;
+    line-height: 1.2rem;
+     }
+  .toutu:after{  
+  background: white;
+    content: "";
+    height: 1px;
+    position: absolute;
+    top: 50%;
+    width: 46%;
+    left: -1.8rem;
+                 }  
+.toutu:before{
+   background: white;
+    content: "";
+    height: 1px;
+    position: absolute;
+    top: 50%;
+    width: 46%;
+    right: -1.8rem;
+         }  
+
+.touto{
+    width: 75%;
+    height: 1.2rem;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 0.5rem;
+}
+.toutone{
+    width:30%;
+    height:1rem;
+    float:left;
+    color:white;
+    font-size:0.6rem;
+}
+.toutotwo{
+    width:30%;
+    height:1rem;
+    float:right;
+    color:white;
+    font-size:0.6rem;
+    text-decoration:underline;
+}
+.toutt{
+   width: 75%;
+    height: 1rem;
+    text-align: center;
+    margin: 0 auto;
+}
+.touttone{
+    width:30%;
+    height:1rem;
+    float:left;
+    color:white;
+    font-size:0.6rem;
+}
+.toutttwo{
+    width:30%;
+    height:1rem;
+    float:right;
+    color:white;
+    font-size:0.6rem;
+}
+ .black_over{
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index:1001;
+    top: 0;  
+    left: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    background-color:#333333b5;
+        }
+.white_content {
+    display: none;
+    position: fixed;
+    z-index:1002;
+    overflow: auto;
+        }
+.out{
+    width:100%;
+    height:9.2rem;
+    position: fixed;
+    bottom:0;
+    left:0;
+    text-align:center;
+}
+.obox{
+    width: 84%;
+    height: 5.2rem;
+    background: white;
+    text-align: center;
+    margin-left: 1.2rem;
+    border-radius:0.3rem;
+}
+.tbox{
+    width: 84%;
+    height: 2.0rem;
+    margin-left: 1.2rem;
+    background: white;
+    text-align: center;
+    margin-top: 0.3rem;
+    border-radius: 0.3rem;
+    color: black;
+    text-align: center;
+    font-size: 18px;
+    line-height:2.1rem;
+}
+ .pim{
+    width: 3rem;
+    height: 2.6rem;
+    text-align:center;
+}
+.op{
+    width: 100%;
+    height: 3rem;
+    margin-left: 5rem;
+}
+.pioooo{
+    width:100%;
+    height:1.5rem;
+    text-align:center;
+    font-size:0.5rem;
+    margin-top:0.3rem;
+} 
+.out ul li{ 
+        width: 100%;
+    /* float: left; */
+    padding-left: 0.1rem;
+    font-size: 0.6rem;
+    padding: 0.3rem;
+ }
+ .tanchubox{
+    width: 100%;
+    height: 100%;
+    background: #000000bf;
+    display: none;
+    position: fixed;
+    z-index: 9999999;
+    bottom: 0;
+}
+.tan-chu-box{
+    width: 100%;
+    height: 100%;
+    background: #000000bf;
+    display: none;
+    position: fixed;
+    z-index: 9999999;
+    bottom: 0;
+}
+.tanchuboxone{
+   width: 86%;
+    height: 15rem;
+    background: white;
+    margin-left: 7%;
+    margin-top: 61%;
+    border-radius: 0.3rem;
+}
+.pnm{
+   width:100%;
+    height: 15rem;
+}
+.tanchuboxoneq{
+   width: 100%;
+    height: 5rem;
+    margin-top: 1rem;
+}
+.picc{
+   width: 3rem;
+    height: 3rem;
+    margin-top: 1.5rem;
+    margin-left: 38%;
+}
+.tanchuboxonew{
+    width: 100%;
+    height: 2rem;
+    text-align: center;
+    color:#333333;
+    font-size:0.9rem;
+}
+.box-close{
+       width: 100%;
+    height: 2rem;
+    text-align: center;
+    margin-top: 0.8rem;
+}
+.box-close-button{
+    width: 100%;
+    height: 2rem;
+    text-align: center;
+    margin-top: 0.8rem; 
+}
+.box-close-pic{
+      width: 1.7rem;
+    height: 1.7rem;
+}
+.touts{
+    background: #fc3b3e;
+    border-radius: 0.3rem 0.3rem 0 0;
+ }
+.toutus{
+         margin: 0.2rem auto;
+    text-align: center;
+    font-size: 0.8rem;
+    position: relative;
+    width: auto;
+    height: 2.2rem;
+    max-width: 5rem;
+    background: #fc3b3e;
+    color: white;
+    line-height: 2.2rem;
+     }
+  .toutus:after{  
+       background: white;
+    content: "";
+    height: 1px;
+    position: absolute;
+    top: 50%;
+    width: 41%;
+    left: -1.6rem;
+                 }  
+.toutus:before{
+       background: white;
+    content: "";
+    height: 1px;
+    position: absolute;
+    top: 50%;
+    width: 41%;
+    right: -1.6rem;
+         }  
+ .tanchubox-tal{
+    width:100%;
+    height:1.5rem;
+ }
+ .tanchubox-tal-name{
+    width:33%;
+    height:1.5rem;
+    float:left;
+    text-align:center;
+    font-size:0.7rem;
+    line-height:1.5rem;
+ }
+ .tanchubox-tal-width{
+    width:33%;
+    height:1.5rem;
+    float:right;
+    text-align:center;
+    font-size:0.7rem;
+     line-height:1.5rem;
+ }
+ .tanchubox-tal-time{
+    width:33%;
+    height:1.5rem;
+    float:right;
+    text-align:center;
+    font-size:0.7rem;
+     line-height:1.5rem;
+ }
+ .tanchubox-tals{
+   width: 100%;
+    height: 1.0rem;
+ }
+ .tanchubox-tal-names{
+        width: 33%;
+    height: 1.0rem;
+    float: left;
+    text-align: center;
+    font-size: 0.5rem;
+    line-height: 1.0rem;
+    color: #707070;
+ }
+ .tanchubox-tal-widths{
+    width:33%;
+    height:1.0rem;
+    float:right;
+    text-align:center;
+    font-size:0.5rem;
+     line-height:1.0rem;
+     color:#707070;
+ }
+ .tanchubox-tal-times{
+    width:33%;
+    height:1.0rem;
+    float:right;
+    text-align:center;
+    font-size:0.5rem;
+     line-height:1.0rem;
+     color:#707070;
+ }

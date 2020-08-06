@@ -1,0 +1,27 @@
+succeess2019-06-07 12:00:06Array
+(
+    [gmt_create] => 2019-06-06 11:19:07
+    [charset] => UTF-8
+    [seller_email] => jiaduoheng@qq.com
+    [gmt_payment] => 2019-06-06 11:19:07
+    [notify_time] => 2019-06-07 12:00:06
+    [subject] => 商城支付
+    [gmt_refund] => 2019-06-06 11:31:09.566
+    [sign] => bPkd4lbdkLA7s0pJR1To31XgB7EawwUVrP47Ok30EsTOKBbYBW+cx42Z/CEskF6yGV36h3rYsw1HK6sjsE6uu9xeTU0x7JrAyGBmUt3gvjuMS/cWd9KxIHr0AgS+qdf56aD1/Zk8WUI4IOWZQlE6Vo5t8aggvrqQDySMnHYXdZlq1t+HtObuqT8eEsIGNpjM8bNcuWeUaPqZcXukZoGiUzUFo28bnietWoX32DyCHk05iPiDactsfSf5zj786LVfdQ6HLENnrpj7k4q4Q4SsptrN6K0U0mutPqwG3NzgTqd1W23Zo0IfFyF3ZX5GlG+nNMPkRwtYUrg4LNCqVxLOaw==
+    [out_biz_no] => 6259196351559791031155979186924590
+    [buyer_id] => 2088012523358597
+    [version] => 1.0
+    [notify_id] => 2019060600222113109058591028250397
+    [notify_type] => trade_status_sync
+    [out_trade_no] => 6259196351559791031
+    [total_amount] => 26.00
+    [trade_status] => TRADE_CLOSED
+    [refund_fee] => 26.00
+    [trade_no] => 2019060622001458591041802180
+    [auth_app_id] => 2019012263129400
+    [buyer_logon_id] => 182****0915
+    [gmt_close] => 2019-06-06 11:31:09
+    [app_id] => 2019012263129400
+    [sign_type] => RSA2
+    [seller_id] => 2088621844218040
+)

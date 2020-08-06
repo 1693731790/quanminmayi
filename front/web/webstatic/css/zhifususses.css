@@ -1,0 +1,84 @@
+body{
+    padding:0;
+    margin:0;
+}
+header{
+    background: #fc3b3e;
+    width: 100%;
+    height: 2.1rem;
+    line-height: 2.1rem;
+    color: #9e9e9e;
+    text-align: center;
+    font-size: 0.9rem;
+    color: #333333;
+    color: white;
+}
+header ._lefte{
+    display: block;
+    position: absolute;
+    height:21px;
+    width: 12px;
+    background-size: 100%;
+    left: 0.6rem;
+    color:#ffffff;
+}
+.outer{
+    width:100%;
+    height:100%;
+}
+.outerone{
+    width: 20%;
+    height: 100%;
+    margin-left: 41%;
+    margin-top: 27%;
+}
+.pic{
+   width: 3.2rem;
+    height: 3.2rem;
+}
+.outertwo{
+     width:100%;
+    height:1.8rem;
+    text-align:center;
+    line-height:1.8rem;
+    font-size:0.8rem;
+}
+.outerthree{
+    width: 100%;
+    height: 1rem;
+    text-align: center;
+    line-height: 1rem;
+    font-size: 0.5rem;
+    color: #666;
+}
+.jifen{
+    color:#fc3b3e;
+}
+.outerfour{
+    width: 80%;
+    height: 3rem;
+    text-align: center;
+    margin-left: 10%;
+    margin-top: 1.5rem;
+}
+.outerfourone{
+    width: 6rem;
+    height:1.5rem;
+    border:1px solid #fc3b3e;
+    border-radius:0.3rem;
+    color:white;
+    font-size:0.6rem;
+    background:#fc3b3e;
+    float:left;
+    line-height:1.5rem;
+}
+.outerfourtwo{
+    width:6rem;
+    height:1.5rem;
+    border-radius:0.3rem;
+     border:1px solid #fc3b3e;
+     color:#fc3b3e;
+     font-size:0.6rem;
+     float:right;
+     line-height:1.5rem;
+}

@@ -1,0 +1,71 @@
+@charset "utf-8";
+/*public*/
+body,h1,h2,h3,h4,h5,dl,dd,dt,p,ul,li,ol{ margin:0; padding:0;}
+input,select,form,textarea,button,video{ border:none; margin:0;outline:none; padding:0; appearance:none;}
+h1,h2,h3,h4,h5{ font-weight:normal;}
+img{ border:none;}
+a{ 
+	text-decoration:none; outline:none;
+	-webkit-tap-highlight-color: transparent;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+}
+select{
+	-webkit-appearance:none; /*去除系统默认的样式*/
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);   /* 点击高亮的颜色*/
+}
+body,button,input,select,textarea{ font: normal 12px/100% Arial,Helvetica,sans-serif;}
+li{ list-style-type:none;}
+table{border-collapse:collapse;border-spacing:0;}
+body,html{ width:100%; height: 100%;}
+.text-overflow{overflow: hidden;white-space: nowrap;text-overflow: ellipsis;}
+.clearfix{font-size:0;clear:both;}
+.clearfix:before {
+	content: ".";
+	display: block;
+	clear: both;
+	height: 0;
+	font-size: 0;
+	visibility: hidden;
+	overflow: hidden;
+}
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	height: 0;
+	font-size: 0;
+	visibility: hidden;
+	overflow: hidden;
+}
+::placeholder {color: #fff;}
+::-webkit-input-placeholder {
+  color: #fff
+}
+button {
+    -webkit-appearance: none;
+    border: 0;
+    background: none;
+}
+/*house_electrical*/
+.special-digital{padding-bottom:2.5rem; background: #101010}
+.special-digital-banner{height: 20.928rem; overflow: hidden;width: 100%; }
+.special-digital-banner img{ max-width: 100%;  display: block; height: 100%; }
+.special-digital-con{ position: relative; z-index: 2;margin-top:-0.746rem;padding-bottom:0.44rem;}
+.special-digital-tit{margin-top:1.237rem; text-align:center;  line-height:1.87rem;position:relative;z-index: 2; height:2.304rem; background: url(../images/tit01.png) center top no-repeat; background-size:9.322rem 2.304rem; }
+.special-digital-tit span{font-size:0.768rem;background: linear-gradient(to right, #d3b964, #f1eb9e); -webkit-background-clip: text;color: transparent;  }
+.special-digital-tit em{width:0.618rem; position: absolute;right:1.92rem;top:0.606rem; height: 0.597rem;  vertical-align:middle; display: inline-block;background: url(../images/tit-r.png) center top no-repeat; background-size:100% 100%;}
+/*digital part1*/
+.special-digital-part1{ width:14.976rem;padding-top:0.597rem;padding-bottom:0.427rem;min-height: 4.8rem; margin: 0 auto; position: relative; z-index: 1;background: url(../images/tit-z.jpg) left top repeat-y;background-size:14.976rem 1.152rem;  margin-top:-0.34rem;}
+.special-digital-part1::before{ content: '.'; position: absolute; display: block; z-index: 2; top: 0rem;left:0;width:14.976rem; height:1.685rem;background: url(../images/tit-t.jpg) left top no-repeat;background-size:14.976rem 1.685rem;  }
+.special-digital-part1::after{ content: '.'; position: absolute; display: block; z-index: 2; bottom: 0rem;left:0;width:14.976rem; height:1.685rem;background: url(../images/tit-f.jpg) left top no-repeat; background-size:14.976rem 1.685rem; }
+.special-digital-part1 ul {padding:0  0.533rem ;margin-top:0.512rem; position: relative;z-index: 3}
+.special-digital-part1 ul li{ width:50%; height:9.334rem; float: left;margin-bottom:0.22rem;}
+.special-digital-part1 ul li>a{margin:0 0.11rem; display:block;background-color: #fff; height: 9.334rem;border-radius:0.4rem; }
+.special-digital-part1 ul li .div-img{border-top-left-radius: 0.4rem; border-top-right-radius:0.4rem;width:100%; text-align: center; height:6.741rem; }
+.special-digital-part1 ul li .div-img img{border-top-left-radius: 0.4rem; border-top-right-radius:0.4rem;width:100%; height:100%;display: block;}
+.special-digital-part1 ul li p.p01{font-size: 0.512rem; line-height: 0.8rem; height: 0.8rem;margin-top:0.307rem;color:#333;padding:0 7%;}
+.special-digital-part1 ul li p.p02 .btn-01{margin:0 17%;margin-top:0.18rem; height: 0.938rem; border-radius: 0.2rem;width:66%; line-height: 0.938rem; text-align: center; color:#fff; font-size:0.64rem; background:#bb9e5c;}
+.special-digital-part1 ul li p.p02 .btn-01:active{ opacity: 0.9 }
+.special-digital-part1 ul li p.p02 span{font-size: 0.512rem;}
+

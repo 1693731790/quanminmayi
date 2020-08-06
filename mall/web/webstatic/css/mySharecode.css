@@ -1,0 +1,120 @@
+body{
+	margin:0;
+	padding:0;
+}
+header{
+    background: #fc3b3e;
+    width: 100%;
+    height: 2.1rem;
+    line-height: 2.1rem;
+    color: #9e9e9e;
+    text-align: center;
+    font-size: 0.9rem;
+    color: #333333;
+    color: white;
+}
+header ._lefte{
+    display: block;
+    position: absolute;
+    height:21px;
+    width: 12px;
+    background-size: 100%;
+    left: 0.6rem;
+    color:#ffffff;
+}
+.Head88 header {
+     height: 2.225rem; 
+    line-height: 2.2rem;
+    background: #f8f8f8;
+    border-bottom:1px solid #fc3b3e;
+}
+.iconfont {
+    font-family: "iconfont" !important;
+    font-size: 22px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.nav{
+    width:100%;
+    height:100%;
+    background:url(../images/wxewm_03.png);
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+}
+.nav-outer{
+    width: 90%;
+    height: 20.2rem;
+    position: absolute;
+    top: 16%;
+    left: 5%;
+    border-radius: 0.4rem;
+    padding: 10px;
+    background: #fff;
+}
+.nav-img{
+   width: 94%;
+    margin-left: 3%;
+    height: 3rem;
+    background: white;
+    margin-top: 0.8rem;
+}
+.nav-imgleft{
+     width: 23%;
+    height: 3rem;
+    float: left;
+}
+.nav-imgright{
+    width: 71%;
+    height: 3rem;
+    float: right;
+}
+.nav-imgrightone{
+
+    width:100%;
+    height: 1.5rem;
+    line-height:1.5rem;
+    font-size:0.8rem;
+    color:black;
+}
+.nav-imgrighttwo{
+     width:100%;
+    height: 1.5rem;
+    line-height:1.5rem;
+     font-size:0.7rem;
+    color:#666666;
+
+}
+.qq{
+    width: 3rem;
+    height: 3rem;
+}
+.nav-erweima{
+    width: 94%;
+    margin-left: 3%;
+    height: 14rem;
+    background: white;
+}
+.nav-erweima-img{
+    width: 97%;
+    height: 12rem;
+    margin-top: 9%;
+    border: 1px solid #cecece;
+    border-radius: 0.4rem;
+    padding: 0.2rem 0.2rem 0.2rem 0.2rem;
+}
+
+.qqs{
+    width: 100%;
+    height: 11.6rem;
+}
+
+.nav-erweima-title{
+    width: 93%;
+    height: 3rem;
+    line-height: 3rem;
+    color: #999999;
+    text-align: center;
+    font-size: 0.7rem;
+
+}

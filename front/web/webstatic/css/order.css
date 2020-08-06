@@ -1,0 +1,328 @@
+body{
+	margin:0;
+	padding:0;
+    background:#eeeeee;
+}
+#content {  
+   width: 100%;
+    margin-top: 2.1rem;
+    height: 100%;
+        }     
+#tab_bar {  
+   width: 100%;
+    height: 1.5rem;
+    float: left;
+    background: white;
+            }  
+#tab_bar ul {  
+   padding: 0;
+    margin: 0;
+    height:1.5rem;
+    text-align: center;
+            }    
+#tab_bar li {  
+    display: inline-block;
+    list-style-type: none;
+    float: left;
+    width: 25%;
+    height:1.5rem;
+}  
+                     
+.tab_css {  
+   width: 100%;
+    height: 100%;
+    display: none;
+    float: left;
+            }  
+.time{
+	display: block;
+    width: 100%;
+    height: 1.4rem;
+    color: #333333;
+    font-size: 0.7rem;
+    margin: 0 auto;
+    line-height: 1.7rem;
+} 
+.big{
+   width: 100%;
+    height: 100%;
+    background: white;
+    margin-top: 0.2rem;
+}
+.bignav{
+    width: 97%;
+    height: 1.5rem;
+}
+.bignavone{
+    width: 7%;
+    height: 1.5rem;
+    float: left;
+    margin-left: 0.5rem;
+    margin-top: 0.5rem;
+}
+.bignavtwo{
+   width: 24%;
+    height: 1.5rem;
+    margin-top: 0.7rem;
+    float: right;
+    font-size: 0.6rem;
+    color: #fc3b3e;
+}
+.bignavtwos{
+  width: 14%;
+    height: 1.5rem;
+    margin-top: 0.7rem;
+    float: right;
+    font-size: 0.6rem;
+    color: #fc3b3e;
+}
+.bignavthree{
+   width: 63%;
+    height: 1.5rem;
+    font-size: 0.6rem;
+    float: right;
+    margin-top: 0.7rem;
+    color: #333333;
+}
+.bignavthrees{
+   width: 73%;
+    height: 1.5rem;
+    font-size: 0.6rem;
+    float: right;
+    margin-top: 0.7rem;
+    color: #333333;
+}
+.picc{
+   width: 0.9rem;
+    height: 0.8rem;
+    margin-top: 0.2rem;
+}
+.center{
+    width: 100%;
+    height: 7rem;
+    position:relative;
+}
+.centerone{
+   width:33%;
+    height: 6rem;
+    float:left;
+     margin-top: 1%;
+    margin-left: 3%;
+}
+.centertwo{
+   width:64%;
+    height: 6rem;
+    float:right;
+   
+}
+.centertwos{
+     width: 100%;
+    height: 6rem;
+}
+.centertwoone{
+    width: 95%;
+    height: 2rem;
+    margin-top: 0.8rem;
+    font-size: 0.6rem;
+    margin-left: 0.2rem;
+    color: #333333;
+}
+.centertwotwo{
+     width: 95%;
+    height: 1rem;
+    font-size: 0.5rem;
+    margin-left: 0.2rem;
+    color: #b4b4b4;
+}
+.centertwothree{
+     width: 95%;
+    height: 1rem;
+    font-size:0.5rem;
+    color:red;
+    margin-left:0.2rem;
+}
+.centertwothrees{
+   width: 80%;
+    height: 1rem;
+    font-size: 0.7rem;
+    color: #ff0000d6;
+    float: left;
+    margin-top: 0.3rem;
+}
+.centertwothreea{
+   width: 11%;
+    height: 1.5rem;
+    font-size: 0.7rem;
+    float: right;
+    margin-top: 0.3rem;
+    color: #333333;
+}
+.pic{
+   width: 0.9rem;
+    height: 1.0rem;
+    font-size: 0.5rem;
+    float: right;
+}
+.centertwofour{
+    width: 95%;
+    height: 1rem;
+    font-size: 0.5rem;
+    color: red;
+    margin-top: 0.5rem;
+}
+.centertwofourone{
+   width: 26%;
+    height: 1rem;
+    font-size: 0.5rem;
+    color: #333333;
+    margin-left: 3.0rem;
+    float: left;
+}
+.centertwofourtwo{
+    width:10%;
+    height: 1rem;
+    font-size:0.5rem;
+    color:#333333;
+    margin-left:0.2rem;
+     float:right;
+}
+.centertwofourthree{
+       width:17%;
+    height: 1rem;
+    font-size: 0.5rem;
+    color: #333333;
+    margin-left: 0.2rem;
+    float: right;
+}
+.centertwofive{
+    width: 97%;
+    height: 2rem;
+    font-size: 0.5rem;
+    color: #ff00009c;
+    /*margin-top: 0.9rem;
+    position: absolute;
+    top: 6.5rem;*/
+}
+.centertwofiveone{
+   width: 21%;
+    height: 1rem;
+    font-size: 0.5rem;
+    color: #333333;
+    margin-left: 5px;
+    float: right;
+    border-radius: 2.9rem;
+    border: 1px solid #c2c2c2;
+    text-align: center;
+    line-height: 1rem;
+    color:#c2c2c2;
+}
+.centertwofivetwo{
+       width:21%;
+    height: 1rem;
+    font-size: 0.5rem;
+    color: #333333;
+    margin-left: 0.2rem;
+    float: right;
+    border-radius: 2.9rem;
+    border: 1px solid red;
+    text-align: center;
+    line-height: 1rem;
+    color:red;
+}
+.centertwofivethree{
+    width:21%;
+    height: 1rem;
+    font-size: 0.5rem;
+    color: #333333;
+    margin-left: 0.2rem;
+    float: right;
+    border-radius:2.9rem;
+    border: 1px solid #c2c2c2;
+    text-align:center;
+    line-height: 1rem;
+      color:#c2c2c2;
+}
+.bigss{
+    width: 100%;
+    height: 100%;
+    margin-top: 0.6rem;
+    background: white;
+}
+.centertwofivethrees{
+    width:21%;
+    height: 1rem;
+    font-size: 0.5rem;
+    color: #333333;
+    margin-left: 0.2rem;
+    float: right;
+    border-radius:2.9rem;
+    border: 1px solid red;
+    text-align:center;
+    line-height: 1rem;
+      color:red;
+}
+.module-layer{
+       width: 100%;
+    height: 2.5rem;
+    position: fixed;
+    top: -0.5rem;
+    left: 0;
+    z-index: 100000;
+    background:#fc3b3e;
+}
+.headerone{
+   width: 7%;
+    height: 100%;
+    float: left;
+    margin-top: 1.2rem;
+    margin-left: 0.5rem;
+}
+.headertwo{
+       width: 16%;
+    height: 100%;
+    float: right;
+    margin-top: 0.7rem;
+}
+.headerthree{
+   width: 73%;
+    height: 1.5rem;
+      line-height: 1.5rem;
+    float: right;
+    margin-top: 0.8rem;
+    background: white;
+    border-radius: 0.9rem;
+    text-align: center;
+}
+#shop-input{
+   width: 88%;
+    height: 0.9rem;
+    font-size: 0.6rem;
+    margin-left: 0.5rem;
+}
+.is{
+    font-size:20px;
+    color:white;
+}
+input,textarea,select,a:focus {
+     outline: none;
+ }
+ input{
+    border:none;
+ }
+ .piccc{
+   width: 1.0rem;
+    height: 1.4rem;
+    display: block;
+    margin-top: 0.3rem;
+    margin-left: 0.9rem;
+ }
+ .shop-search{
+   width: 0.8rem;
+    height: 0.8rem;
+    display: block;
+    margin-top: -1.1rem;
+    margin-left: 10.3rem;
+ }
+.timeactive {  
+    border-bottom:2px solid red;
+}

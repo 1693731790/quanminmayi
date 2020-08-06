@@ -1,0 +1,511 @@
+body{
+	padding:0;
+	margin:0;
+	background:#f7f7f7;
+}
+input{
+    border:none;
+    outline:medium;
+}
+header{
+    width: 100%;
+    height: 1.6rem;
+    line-height: 1.6rem;
+    background: #f84e3700;
+    color: #9e9e9e;
+    text-align: center;
+    font-size: 0.9rem;
+    color: #333333;
+    color: white;
+    z-index: 9999;
+    position: absolute;
+    top: 1%;
+}
+header ._lefte{
+    display: block;
+    position: absolute;
+    height:21px;
+    width: 12px;
+    background-size: 100%;
+    left: 0.6rem;
+    color:white;
+}
+.header-img{
+   width:100%;
+   height:100%;
+}
+.header{
+	width: 100%;
+    height:9rem;
+}
+.shop-search{
+	width: 100%;
+    height: 9rem;
+}
+.center{
+   width: 100%;
+    height: 6.5rem;
+    background: white;
+}
+.centers{
+   width: 100%;
+    height: 6.5rem;
+    background: white;
+    margin-top:0.4rem;
+}
+.centerone{
+   width:33%;
+    height: 6rem;
+    float:left;
+}
+.centertwo{
+   width:63%;
+    height: 6rem;
+    float:right;
+}
+.centertwos {
+    width: 90%;
+    height: 5rem;
+    margin-left: 6%;
+    margin-top: 11%;
+}
+.centertwoone{
+ 	width: 90%;
+    height: 1.3rem;
+    margin-top: 1.5rem;
+    font-size: 0.8rem;
+    margin-left: 0.2rem;
+    color: #414141;
+    /* overflow: hidden; */
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.centertwotwo{
+   width: 95%;
+    height: 1rem;
+    font-size: 0.65rem;
+    margin-left: 0.2rem;
+    color: #b4b4b4;
+}
+.centertwothree{
+     width: 95%;
+    height: 1rem;
+    font-size:0.5rem;
+    color:red;
+    margin-left:0.2rem;
+}
+.centertwothrees{
+   width: 50%;
+    height: 1rem;
+    font-size: 0.6rem;
+    color: red;
+    float: left;
+    margin-top: 0.3rem;
+}
+.centertwothreea{
+    width: 40%;
+    height: 1.1rem;
+    font-size: 0.5rem;
+    float: right;
+    border-radius: 1.9rem;
+    margin-top: 0.3rem;
+    background: #fc3b3e;
+    color: #fff2f2;
+    font-size: 0.6rem;
+    text-align: center;
+    line-height: 1.1rem;
+    margin-right: 0.5rem;
+}
+.pic{
+   width: 0.9rem;
+    height: 1.0rem;
+    font-size: 0.5rem;
+    float: right;
+}
+.jiage{
+	font-size: 0.8rem;
+}
+.black_over{
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index:999999;
+    top: 0;  
+    left: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    background-color:rgba(0,0,0,0.8);
+}
+.white_content {
+    display: none;
+   position: fixed;
+    z-index: 9999999999999999;
+    overflow: auto;
+}
+.out{
+    width: 100%;
+    position: fixed;
+   z-index: 9999999999999999999999999999999999999;
+    bottom: 7%;
+    left: 0;
+    background: white;
+}
+.obox{
+    width: 84%;
+    height: 5.2rem;
+    background: white;
+    text-align: center;
+    margin-left: 1.2rem;
+    border-radius:0.3rem;
+}
+.tbox{
+    width: 84%;
+    height: 2.0rem;
+    margin-left: 1.2rem;
+    background: white;
+    text-align: center;
+    margin-top: 0.3rem;
+    border-radius: 0.3rem;
+    color: black;
+    text-align: center;
+    font-size: 18px;
+    line-height:2.1rem;
+}
+ .pim{
+    width: 3rem;
+    height: 2.6rem;
+    text-align:center;
+}
+.op{
+    width: 100%;
+    height: 3rem;
+    margin-left: 0.4rem;
+}
+.pioooo{
+    width:100%;
+    height:1.5rem;
+    text-align:center;
+    font-size:0.5rem;
+    margin-top:0.3rem;
+} 
+.out ul li{ 
+    width: 28%;
+    float: left;
+    padding-left: 0.1rem;
+    font-size: 0.6rem;
+    padding: 0.3rem;
+ }
+ .tanchubox{
+    width: 100%;
+    height: 100%;
+    background: #000000bf;
+    display: none;
+    position: fixed;
+    z-index: 9999999;
+    bottom: 0;
+}
+.tan-chu-box{
+    width: 100%;
+    height: 100%;
+    background: #000000bf;
+    display: none;
+    position: fixed;
+    z-index: 9999999;
+    bottom: 0;
+}
+.tanchuboxone{
+   width: 86%;
+    height: 15rem;
+    background: white;
+    margin-left: 7%;
+    margin-top: 61%;
+    border-radius: 0.3rem;
+}
+.pnm{
+    width:100%;
+    height: 15rem;
+}
+.tanchuboxoneq{
+    width: 100%;
+    height: 5rem;
+    margin-top: 1rem;
+}
+.picc{
+    width:3rem;
+    height:3rem;
+    margin-top:1.5rem;
+    margin-left:38%;
+}
+.tanchuboxonew{
+    width: 100%;
+    height: 2rem;
+    text-align: center;
+    color:#333333;
+    font-size:0.9rem;
+}
+.box-close{
+    width: 100%;
+    height: 2rem;
+    text-align: center;
+    margin-top: 0.8rem;
+}
+.box-close-button{
+    width: 100%;
+    height: 2rem;
+    text-align: center;
+    margin-top: 0.8rem; 
+}
+.box-close-pic{
+    width: 1.7rem;
+    height: 1.7rem;
+}
+.touts{
+    background: #fc3b3e;
+    border-radius: 0.3rem 0.3rem 0 0;
+ }
+ .outaddress{
+    width: 100%;
+    height:2rem;
+    background: white;
+    border-bottom: 1px solid #cecece;
+ }
+ .outtitle{
+    width: 90%;
+    height: 2rem;
+    float: left;
+    font-size: 0.8rem;
+    line-height: 2rem;
+    color:#333333;
+ }
+ .outclose{
+    width: 10%;
+    height:2rem;
+    float: right;
+    line-height:2rem;
+ }
+ .shop-so{
+   width: 0.7rem;
+    height: 0.7rem;
+    margin-top: 0.6rem;
+ }
+ .address{
+    margin-left:5.5rem;
+ }
+ .outname{
+        width: 100%;
+    height: 3.5rem;
+    background: white;
+    border-bottom: 1px solid #cecece;
+
+ }
+ .outleft{
+    width:85%;
+    height:2.6rem;
+    float:left;
+    line-height:2.6rem;
+    margin-left:0.5rem;
+ }
+ .outright{
+    width: 10%;
+    height:2.6rem;
+    float:right;
+    line-height:2.6rem;
+ }
+ .outleftname{
+    width: 100%;
+    height: 2rem;
+    font-size: 0.7rem;
+    line-height: 1.8rem;
+    color: #666;
+ }
+ .outleftiphone{
+    font-size:0.7rem;
+    color:#666;
+ }
+ .outleftaddress{
+    width: 100%;
+    height: 1.0rem;
+    line-height: 0.7rem;
+    font-size: 0.7rem;
+    color:#666666;
+
+ }
+ .outnames{
+    width:100%;
+    height:2.6rem;
+    background:white;
+    border-bottom:1px solid #66666652;
+ }
+ .outlefts{
+  /*   width:85%;
+  height:2.6rem;
+  float:left;
+  font-size:0.7rem;
+  line-height:2.6rem;
+  margin-left:0.5rem; */
+      width: 85%;
+    height: 2.6rem;
+    float: left;
+    font-size: 0.7rem;
+    line-height: 2.6rem;
+    margin-left: 0.5rem;
+    margin-bottom: 0.5rem;
+ }
+ .outrights{
+    width: 10%;
+    height:2.6rem;
+    float:right;
+    line-height:2.6rem;
+ }
+ .tan-chu-box{
+    width: 100%;
+    height: 100%;
+    background:rgba(0,0,0,0.8);
+    display: none;
+    position: fixed;
+    z-index: 9999999;
+    bottom: 0;
+}
+.tanchuboxone{
+   width: 86%;
+    height:14rem;
+    background: white;
+    margin-left: 7%;
+    margin-top:40%;
+    border-radius: 0.3rem;
+}
+.pnm{
+   width:100%;
+    height: 15rem;
+}
+.tanchuboxoneq{
+   width: 100%;
+    height: 5rem;
+    margin-top: 1rem;
+}
+.picc{
+   width: 3rem;
+    height: 3rem;
+    margin-top: 1.5rem;
+    margin-left: 38%;
+}
+.tanchuboxonew{
+    width:100%;
+    height:2rem;
+    text-align:center;
+    color:#333333;
+    font-size:0.9rem;
+}
+.box-close{
+       width:100%;
+    height:2rem;
+    text-align:center;
+    margin-top:0.8rem;
+}
+.box-close-button{
+    width:100%;
+    height:2rem;
+    text-align:center;
+    margin-top:0.8rem; 
+}
+.box-close-pic{
+      width:1.7rem;
+    height:1.7rem;
+}
+.touts{
+    background:#fc3b3e;
+    border-radius: 0.3rem 0.3rem 0 0;
+ }
+.toutus{
+    margin: 0.2rem auto;
+    text-align: center;
+    font-size: 0.8rem;
+    position: relative;
+    width: auto;
+    height: 2.2rem;
+    max-width: 5rem;
+    background: #fc3b3e;
+    color: white;
+    line-height: 2.2rem;
+     }
+.addresss {
+    margin-left: 4.5rem;
+}
+.outerthree{
+    width:100%;
+    height:2.5rem;
+    background:white;
+    margin-top:0.1rem;
+}
+.outerthreeone{
+    width:30%;
+    height:2.5rem;
+    float:left;
+   line-height:2.5rem;
+    color:#333333;
+    font-size:0.7rem;
+    margin-left: 0.5rem;
+}
+.outerthreetwo{
+    width: 96%;
+    height: 1.8rem;
+    color: #333333;
+    font-size: 0.9rem;
+    margin-left: 0.5rem;
+}
+.outerthreetwos{
+    width: 96%;
+    height: 3.3rem;
+    color: #333333;
+    font-size: 0.9rem;
+    margin-left: 0.5rem;
+}
+.box-close-button{
+    width: 96%;
+    height: 1.5rem;
+    background: red;
+    color: white;
+    line-height: 1.5rem;
+    margin-left: 2%;
+    border-radius: 0.2rem;
+}
+.bobbom-btn{
+    width:100%;
+    height:2rem;
+    text-align:center;
+    position:fixed;
+    z-index:99999999;
+    bottom:0rem;
+    background:white;
+}
+.bobbom-left{
+   width:48%;
+    height:1rem; 
+    float:left;
+    margin-top:0.7rem;
+    font-size:0.7rem;
+     color:#fc3b3e;
+}
+/* .bobbom-left:hover{
+     color:#fc3b3e;
+} */
+.bobbom-right{
+    width:48%;
+    height:1rem; 
+    float:left;
+    border-left:1px solid #cecece;
+    margin-top:0.7rem;
+    font-size:0.7rem;
+    color:#666666;
+}
+/* .bobbom-right:hover{
+     color:#fc3b3e;
+} */
+#list_box{
+    width:100%;
+    height:100%;
+    margin-bottom:13%;
+}

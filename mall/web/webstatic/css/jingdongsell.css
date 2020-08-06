@@ -1,0 +1,213 @@
+body{
+    padding:0;
+    margin:0;
+    background:#fc3b3e;
+}
+ ul,li{ padding:0;margin:0;list-style:none}
+ header{
+    width: 100%;
+    height: 1.6rem;
+    line-height: 1.6rem;
+    background: #f84e3700;
+    color: #9e9e9e;
+    text-align: center;
+    font-size: 0.9rem;
+    color: #333333;
+    color: white;
+    z-index: 9999;
+    position: absolute;
+    top: 1%;
+}
+header ._lefte{
+    display: block;
+    position: absolute;
+    height:21px;
+    width: 12px;
+    background-size: 100%;
+    left: 0.6rem;
+    color:white;
+}
+.header-img{
+   width:100%;
+   height:100%;
+}
+.outer{
+    width:100%;
+    height:9rem;
+}
+.picq{
+    width: 100%;
+    height:100%;
+}
+.outerone{
+    width: 100%;
+    height: 2rem;
+    background: url(../images/maichang_03.png) center no-repeat;
+    text-align: center;
+    color: white;
+    line-height: 2rem;
+    background-size: 130% 100%;
+    font-size:0.8rem;
+}
+.centers{
+    width: 90%;
+    height: 7rem;
+    background: white;
+    margin: 0 auto;
+    border-radius: 0.3rem;
+    margin-top: 0.6rem;
+}
+.centerone{
+  width: 29%;
+    height: 6rem;
+    float: right;
+}
+.centertwo{
+   width:70%;
+    height: 6rem;
+    float:left;
+}
+.centertwos{
+    width: 100%;
+    height: 6rem;
+    margin-top: 0.3rem;
+}
+.centertwoone{
+    width: 90%;
+    height: 1.2rem;
+    margin-top: 0.75rem;
+    font-size: 0.8rem;
+    margin-left: 0.2rem;
+    color: #5d5d5d;
+    margin-left: 0.7rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.centertwotwo{
+   width: 90%;
+    height: 1rem;
+    font-size: 0.65rem;
+    margin-left: 0.2rem;
+    color: #b4b4b4;
+    margin-left: 0.7rem;
+    white-space: nowrap;
+	overflow: hidden;
+}
+.centertwothree{
+    width: 95%;
+    height: 1.9rem;
+    font-size: 0.5rem;
+    color: red;
+    margin-left: 0.2rem;
+}
+.centertwothrees{
+    width: 50%;
+    height: 1rem;
+    font-size: 1.0rem;
+    color: #fc3b3e;
+    float: left;
+    margin-top: 0.3rem;
+    margin-left: 0.7rem;
+}
+.centertwothreea{
+    width: 39%;
+    height: 1.1rem;
+    font-size: 0.5rem;
+    float: right;
+    border-radius: 1.9rem;
+    margin-top: 0.3rem;
+    background: #fc3b3e;
+    color: #fff2f2;
+    font-size: 0.6rem;
+    text-align: center;
+    line-height: 1.1rem;
+}
+.pic{
+   width: 0.9rem;
+    height: 1.0rem;
+    font-size: 0.5rem;
+    float: right;
+}
+.haha{
+    color:#666;
+    font-size: 13px;
+    text-decoration:line-through;
+}
+.centertwofour{
+    width: 63%;
+    height: 1.3rem;
+    background: #fc3b3e;
+    color: white;
+    text-align: center;
+    font-size: 0.7rem;
+    line-height: 1.3rem;
+    margin-left: 0.7rem;
+}
+.pil{
+      width: 90%;
+    height: 100%;
+    margin-top: 0.5rem;
+    margin-bottom: 0.3rem;
+    margin-left: 0.9rem;
+    display: inline-block;
+}
+.pil ul li{
+   width:32%;
+    height: 8rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.3rem;
+    float:left;
+    margin-left:0.1rem;
+}
+.pilone{
+   width: 100%;
+    height: 8rem;
+    background:white;
+    float: left;
+    border-radius:0.2rem;
+ }
+/* .piltwo{
+      width: 31%;
+    height: 8rem;
+    background: white;
+    float: right;
+    margin-left: 0.5rem;
+    border-radius: 0.2rem;
+}
+.pilthree{
+   width: 31%;
+    height: 8rem;
+    background:white;
+    float:right;
+    border-radius:0.2rem;
+} */
+.piloneone{
+    width:100%;
+    height:5rem;
+    background:white;
+    float:right;
+    border-radius:0.2rem;
+}
+.pui{
+    width:100%;
+    height:5rem;
+    margin-top: 0.1rem;
+}
+.pilonetwo{
+    font-size: 0.7rem;
+    color: #fc3b3e;
+    width: 90%;
+    height: 6.5rem;
+    margin-left: 0.5rem;
+}
+.pilonethree{
+    width: 90%;
+    height: 1.0rem;
+    background: #fc3b3e;
+    margin-left: 0.2rem;
+    font-size: 0.5rem;
+    text-align: center;
+    line-height: 1.0rem;
+    color: white;
+}

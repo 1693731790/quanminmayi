@@ -1,0 +1,135 @@
+body{
+	margin:0;
+	padding:0;
+}
+
+.module-layer{
+       width: 100%;
+    height: 2.5rem;
+    position: fixed;
+    top: -0.5rem;
+    left: 0;
+    z-index: 100000;
+    background:#fc3b3e;
+}
+.headerone{
+   width: 7%;
+    height: 100%;
+    float: left;
+    margin-top: 1.2rem;
+    margin-left: 0.5rem;
+}
+.headertwo{
+       width: 16%;
+    height: 100%;
+    float: right;
+    margin-top: 0.7rem;
+}
+.headerthree{
+   width: 73%;
+    height: 1.5rem;
+    float: right;
+    margin-top: 0.8rem;
+    background: white;
+    border-radius: 0.9rem;
+    text-align: center;
+      line-height: 1.5rem;
+}
+#shop-input{
+   width: 88%;
+    height: 0.9rem;
+    font-size: 0.6rem;
+    margin-left: 0.5rem;
+}
+.is{
+    font-size:20px;
+    color:white;
+}
+input,textarea,select,a:focus {
+     outline: none;
+ }
+ input{
+    border:none;
+ }
+ .piccc{
+   width: 1.0rem;
+    height: 1.4rem;
+    display: block;
+    margin-top: 0.3rem;
+    margin-left: 0.9rem;
+ }
+ .shop-search{
+   width: 0.8rem;
+    height: 0.8rem;
+    display: block;
+    margin-top: -1.0rem;
+    margin-left: 10.3rem;
+ }
+ .center{
+       width: 100%;
+    height: 6rem;
+    border-bottom:1px solid #cecece;
+    margin-top:2.3rem;
+}
+.centers{
+       width: 100%;
+    height: 6rem;
+    border-bottom:1px solid #cecece;
+}
+.centerone{
+   width:33%;
+    height: 6rem;
+    float:left;
+}
+.centertwo{
+   width:67%;
+    height: 6rem;
+    float:right;
+}
+.centertwos{
+    width: 92%;
+    height: 5.5rem;
+    margin: 0.2rem;
+}
+.centertwoone{
+    width: 95%;
+    height: 1.5rem;
+    margin-top: 0.8rem;
+    font-size: 0.6rem;
+    margin-left:0.2rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.centertwotwo{
+     width: 95%;
+    height: 1rem;
+    font-size: 0.5rem;
+    margin-left: 0.2rem;
+    color: #b4b4b4;
+    margin-top: 0.5rem;
+}
+.centertwothree{
+     width: 95%;
+    height: 1rem;
+    font-size:0.5rem;
+    color:red;
+    margin-left:0.2rem;
+}
+.centertwothrees{
+   width: 95%;
+    height: 1.5rem;
+    font-size: 0.8rem;
+    color: red;
+}
+.pic{
+   width: 0.9rem;
+    height: 1.0rem;
+    font-size: 0.5rem;
+    float: right;
+}
+.pi{
+    color: #666;
+    font-size: 0.6rem;
+    text-decoration: line-through;
+}

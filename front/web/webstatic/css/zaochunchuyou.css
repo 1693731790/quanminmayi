@@ -1,0 +1,167 @@
+body{
+
+	padding:0;
+
+	margin:0;
+
+}
+
+ul,li{ padding:0;margin:0;list-style:none}
+
+.header{
+
+	width:100%;
+
+	height:12rem;
+
+}
+header{
+    width: 100%;
+    height: 1.6rem;
+    line-height: 1.6rem;
+    background: #f84e3700;
+    color: #9e9e9e;
+    text-align: center;
+    font-size: 0.9rem;
+    color: #333333;
+    color: white;
+    z-index: 9999;
+    position: absolute;
+    top: 1%;
+}
+header ._lefte{
+    display: block;
+    position: absolute;
+    height:21px;
+    width: 12px;
+    background-size: 100%;
+    left: 0.6rem;
+    color:white;
+}
+.centertwos{
+
+	width:100%;
+
+	height:12rem;
+
+}
+.is{
+   width:100%;
+   height:100%;
+}
+.headerout{
+        width: 100%;
+    height: 2.2rem;
+    margin-top: 0.5rem;
+
+}
+
+.centertwo{
+    width: 100%;
+    height:100%;
+
+}
+
+.headeroutone{
+
+	width:100%;
+
+	height:100%;
+
+}
+
+.headeroutone ul li{
+
+	float:left;
+
+	width:45%;
+
+	height:11rem;
+
+	margin-left:0.55rem;
+
+}
+
+.spa{
+
+	width:100%;
+
+	height:11rem;
+
+}
+
+.picee{
+
+    width: 100%;
+
+    height: 7.5rem;
+
+    margin-top: 0.1rem;
+
+    border-radius:0.3rem;
+
+}
+
+.titlewee{
+
+   	width: 94%;
+
+    height: 4.5rem;
+
+    font-size:0.6rem;
+
+    margin-left: 0.3rem;
+
+    color: #333333;
+
+    margin-top: 0.1rem;
+
+    overflow: hidden;
+
+    text-overflow: ellipsis;
+
+    white-space: nowrap;
+
+} 
+
+.pricee{
+
+   width: 94%;
+
+    height: 0.9rem;
+
+    font-size: 0.7rem;
+
+    margin-left: 0.1rem;
+
+    color: #81bf8e;
+
+    margin-top: 0.2rem;
+
+}
+
+.hahae {
+
+    color: #666;
+
+    font-size:0.6rem;
+
+    text-decoration: line-through;
+
+}
+
+.shopedsi{
+
+   	width:42%;
+
+    height:1.1rem;
+
+    color:#b0b0b0;
+
+    font-size:0.5rem;
+
+    margin-top:0.1rem;
+
+     margin-left: 0.1rem;
+
+}

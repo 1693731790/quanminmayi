@@ -1,0 +1,167 @@
+body{
+
+	margin:0;
+
+	padding:0;
+
+}
+
+header{
+
+    background: #fc3b3e;
+
+    width: 100%;
+
+    height: 2.1rem;
+
+    line-height: 2.1rem;
+
+    color: #9e9e9e;
+
+    text-align: center;
+
+    font-size: 0.9rem;
+
+    color: #333333;
+
+    color: white;
+
+}
+
+header ._lefte{
+
+    display: block;
+
+    position: absolute;
+
+    height:21px;
+
+    width: 12px;
+
+    background-size: 100%;
+
+    left: 0.6rem;
+
+    color:white;
+
+}
+
+.chongzhione{
+
+    width: 100%;
+
+    height: 2.5rem;
+
+    border-bottom: 1px solid #cecece;
+
+}
+
+.chongzhitwo{
+
+    width: 100%;
+
+    height: 2.5rem;
+
+    border-bottom: 1px solid #cecece;
+
+}
+
+.chongzhithree{
+
+    width: 100%;
+
+    height: 2.5rem;
+
+    border-bottom: 1px solid #cecece;
+
+}
+
+.chongzhifour{
+
+    width:100%;
+
+    height:2.0rem;
+
+    font-size:0.4rem;
+
+}
+
+.chongzhifourone {
+
+        width: 89%;
+
+    height: 0rem;
+
+    font-size: 0.4rem;
+
+    margin-left: 1.0rem;
+
+    margin-top: 0.9rem;
+
+    color: #999999;
+
+}
+
+.chongzhifive{
+
+       width: 89%;
+
+    height: 2.5rem;
+
+    font-size: 0.4rem;
+
+    margin-left: 0.9rem;
+
+    color: #fc484b;
+
+}
+
+.right{
+    width: 68%;
+    height: 1rem;
+    float: right;
+    margin-top: 0.9rem;
+    margin-left: -0.5rem;
+}
+.left{
+    width: 23%;
+    height: 2.5rem;
+    float: left;
+    font-size: 0.7rem;
+    color: #333333;
+    line-height: 2.5rem;
+    margin-left: 1.0rem;
+}
+input,textarea,select,a:focus {
+  outline: none;
+
+ }
+ .btn{
+    width: 73%;
+    height: 1.7rem;
+    margin: 0 auto;
+    z-index: 99999999999;
+    border-radius: 30px;
+    background: #ff6567;
+    text-align: center;
+    overflow: hidden;
+    position: fixed;
+    bottom: 18%;
+    font-size: 0.8rem;
+    left: 13.5%;
+    color: white;
+    line-height: 1.6rem;
+}
+.rightt{
+    width: 68%;
+    font-size: 1.2rem;
+    margin-left: 1.0rem;
+    line-height: 2.5rem;
+} 
+
+#shop-input{
+
+    color:black;
+
+}
+

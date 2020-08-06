@@ -1,0 +1,21 @@
+{
+    "name": "micsay/yii2-captcha",
+    "description": "yii2-captcha for restful api by returning image's base64 extend yii/captcha/CaptchaAction",
+    "type": "yii2-extension",
+    "keywords": [
+        "yii2",
+        "captcha",
+        "restful",
+        "base64",
+        "extension"
+    ],
+    "license": " Apache License 2.0",
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "micsay\\captcha\\": ""
+        }
+    }
+}

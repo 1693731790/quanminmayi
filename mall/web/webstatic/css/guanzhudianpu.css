@@ -1,0 +1,74 @@
+body{
+    padding:0;
+    margin:0;
+}
+input{
+    border:none;
+    outline:medium;
+}
+header{
+    background: #fc3b3e;
+    width: 100%;
+    height: 2.1rem;
+    line-height: 2.1rem;
+    color: #9e9e9e;
+    text-align: center;
+    font-size: 0.9rem;
+    color: #333333;
+    color: white;
+}
+header ._lefte{
+    display: block;
+    position: absolute;
+    height: 0.8rem;
+    width: 0.8rem;
+    background-size: 100%;
+    left: 0.6rem;
+    color: #ffffff;
+}
+.outer{
+    width: 100%;
+    height: 3.5rem;
+    background: white;
+    border-bottom: 1px solid #cecece;
+}
+.outerone{
+   width: 16%;
+    height: 2.5rem;
+    float: left;
+    /* background: red; */
+    margin-left: 0.6rem;
+    border-radius: 4rem;
+    margin-top: 0.55rem;
+    border: 1px solid #cecece;
+}
+.cen{
+     width:100%;
+    height: 2.5rem;
+}
+.outertwo{
+    width: 48%;
+    height: 2.5rem;
+    float: left;
+    line-height: 2.5rem;
+    color: #333333;
+    font-size: 0.75rem;
+    margin-top: 0.55rem;
+
+}
+.outerthree{
+ width: 24%;
+    height: 1.3rem;
+    text-align: center;
+    float: left;
+    line-height: 1.3rem;
+    color: #333333;
+    font-size: 0.6rem;
+    border-radius: 1.9rem;
+    border: 1px solid #fc3b3e;
+    color: #fc3b3e;
+    margin-top: 1.1rem;
+}
+.name{
+    margin-left:0.4rem;
+}

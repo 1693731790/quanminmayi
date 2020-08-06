@@ -1,0 +1,205 @@
+@charset "utf-8";
+body {
+	font-size: 14px;
+	color: #383838;
+	background-color: #f7f7f7;
+}
+
+body,
+ul,
+li,
+dl,
+dt,
+dd,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+input,
+form,
+a,
+p,
+textarea,
+img {
+	padding: 0;
+	margin: 0;
+	font-family: "微软雅黑" "verdana, geneva, arial, helvetica, sans-serif";
+}
+
+ol,
+ul,
+li {
+	list-style: none;
+}
+
+a {
+	color: #333;
+	text-decoration: none;
+}
+
+a:hover,
+a:focus,
+a:visited {
+	color: #FC242C;
+	text-decoration: none;
+}
+
+img {
+	border: none;
+	display: block;
+}
+
+.clearfloat {
+	zoom: 1;
+}
+
+.clearfloat:after {
+	display: block;
+	content: "";
+	clear: both;
+	visibility: hidden;
+	height: 0;
+}
+
+.container {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.fl {
+	float: left;
+}
+
+.fr {
+	float: right;
+}
+
+.text-fr {
+	text-align: right;
+}
+
+.red {
+	color: #FC242C!important;
+}
+
+.text-color {
+	color: #FC242C!important;
+	font-weight: bold;
+}
+
+.mt-10 {
+	margin-top: 10px;
+}
+
+.mt-20 {
+	margin-top: 20px;
+}
+
+.mt-30 {
+	margin-top: 30px;
+}
+.mt-90 {
+	margin-top: 90px;
+}
+.mb-30 {
+	margin-bottom: 30px;
+}
+
+.ml-5 {
+	margin-left: 5px;
+}
+.ml-10{
+	margin-left: 10px;
+}
+.mr-10{
+	margin-right: 10px;
+}
+.mr-15{
+	margin-right: 15px;
+}
+.mr-20{
+	margin-right: 20px;
+}
+.mr-40{
+	margin-right: 40px;
+}
+.mr-60{
+	margin-right: 60px;
+}
+.pl-15{
+	padding-left: 15px;
+}
+.dd-line {
+	border-bottom: 1px solid #ddd;
+	width: 100%;
+	float: left;
+}
+
+.font-12 {
+	font-size: 12px;
+}
+
+.font-16 {
+	font-size: 16px;
+	font-weight: normal;
+}
+
+.font-18 {
+	font-size: 18px;
+}
+
+.font-24 {
+	font-size: 24px;
+}
+
+.color-c5 {
+	color: #c5c5c5;
+}
+
+.icon-color-fff {
+	color: #fff;
+}
+.color-ab{
+	color: #ababab;
+}
+.color-fc{
+	color: #FC242C;
+}
+.color-006{
+	color: #006ade;
+}
+.color-3ac{
+	color: #3ac1ac;
+}
+.color-fc7{
+	color: #fc7f24;
+}
+.color-4b1{
+	color: #4b1c1e;
+}
+.color-666{
+	color: #666;
+}
+/*替换iconfont*/
+
+.icon-xiala1 {
+	color: #bdbcbc;
+	margin-top: 2px;
+	margin-left: 0px;
+	font-size: 10px;
+}
+
+.icon-iconfontgouwuche {
+	margin-right: 5px;
+}
+
+.icon-shoucang-copy {
+	margin-top: 2px;
+	margin-right: 2px;
+}
+.icon-shuaxin {
+	font-size: 20px;
+	margin-right: 5px;
+}

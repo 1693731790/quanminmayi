@@ -1,0 +1,80 @@
+body{
+	margin:0;
+	padding:0;
+}
+header{
+    background: #fc3b3e;
+    width: 100%;
+    height: 2.1rem;
+    line-height: 2.1rem;
+    color: #9e9e9e;
+    text-align: center;
+    font-size: 0.9rem;
+    color: #333333;
+    color: white;
+}
+header ._lefte{
+    display: block;
+    position: absolute;
+    height:21px;
+    width: 12px;
+    background-size: 100%;
+    left: 0.6rem;
+    color:#ffffff;
+}
+.shop-img{
+    width: 1.0rem;
+    height: 1.0rem;
+    margin-top: 0.5rem;
+}
+.app-backgroundimg{
+    width:100%;
+    height:100%;
+}
+.shop-sq{
+     width:100%;
+    height:100%;
+}
+.app-button{
+ width:100%;
+    height:5rem;
+    margin-top:8%;
+}
+.app-iphone{
+     width:70%;
+    height:2rem;
+    text-align:center;
+    margin-left:12.5%;
+}
+.app-android{
+    width:70%;
+    height:2rem;
+    text-align:center;
+    margin-left:12.5%;
+    margin-top:5%;
+}
+
+.app-tit{
+    width:100%;
+    height:2rem;
+    /* background-image: url(images/appqiu_14.png); */
+   /*  background-repeat: no-repeat; */
+    /* background-size:100% 100%; */
+    margin-top:8%;
+}
+.app-title{
+     width:70%;
+    height:0.5rem;
+    color:#666666;
+    font-size:0.6rem;
+    text-align:center;
+    margin-left:12.5%;
+}
+.app-titletwo{
+    width:100%;
+    height:0.5rem;
+    text-align:center;
+    color:#666666;
+    margin-top:5%;
+    font-size:0.6rem;
+}
